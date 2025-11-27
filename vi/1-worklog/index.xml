@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nhật ký công việc on Báo cáo thực tập</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/</link><description>Recent content in Nhật ký công việc on Báo cáo thực tập</description><generator>Hugo</generator><language>vi</language><lastBuildDate>Mon, 27 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://thienluhoan.github.io/workshop-template/vi/1-worklog/index.xml" rel="self" type="application/rss+xml"/><item><title>Worklog Tuần 1</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.1-week1/week1_index/</link><pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.1-week1/week1_index/</guid><description>&lt;h3 id="mục-tiêu-tuần-1">Mục tiêu tuần 1:&lt;/h3>
+&lt;ul>
+&lt;li>Create an AWS account&lt;/li>
+&lt;li>Module 1: Lab 1, Lab 7, Lab 9&lt;/li>
+&lt;li>Module 2: Lab 3&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem Module 01 (01-07) ở Youtobe AWS Study group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Điện toán đám mây là gì? &lt;br>  + Điều gì tạo nên sự khác biệt của AWS? &lt;br>  + Bắt đầu hành trình lên mây như thế nào &lt;br>  + Hạ tầng toàn cầu của AWS &lt;br>  + Công cụ quản lý AWS Services &lt;br>  + Tối ưu hóa chi phí trên AWS và làm việc với AWS Support &lt;br>  + Thực hành và Nghiên cứu bổ sung&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 01 - Lab 01 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Create an AWS account &lt;br>  + Setup with Virtual MFA Device &lt;br>  + Create admin group and admin user &lt;br>  + Account authentication support&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000001.awsstudygroup.com/vi/">https://000001.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 01 - Lab 07: 01-06 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module 01-Lab07-01 -&amp;gt; Lab07-06: BASIC PRACTICE &lt;br>  + Module 01-Lab09-01 -&amp;gt; Lab09-04: AWS support Packages&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000007.awsstudygroup.com/vi/">https://000007.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem module 02-01, module 02-02 và module 02-03 trên kênh Youtobe AWS Study group &lt;br> &lt;strong>Thực hành:&lt;/strong> Tìm hiểu về &lt;br>  + AWS Virtual Private Cloud (VPC)&lt;/td>
+ &lt;td style="text-align: left">14/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000003.awsstudygroup.com/vi/2-firewallinvpc/">https://000003.awsstudygroup.com/vi/2-firewallinvpc/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem module 02-01, module 02-02 và module 02-03 trên kênh Youtobe AWS Study group &lt;br> &lt;strong>Thực hành:&lt;/strong> Tìm hiểu về &lt;br>  + VPC Peering &amp;amp; Transit Gateway &lt;br>  + VPN &amp;amp; DirectConnect &lt;br>  + Elastic Load Balancing&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000003.awsstudygroup.com/vi/5-vpnsitetosite//">https://000003.awsstudygroup.com/vi/5-vpnsitetosite//&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-1">Kết quả đạt được tuần 1:&lt;/h3>
+&lt;p>&lt;strong>Hoàn thành&lt;/strong>:&lt;/p></description></item><item><title>Worklog Tuần 2</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.2-week2/week2_index/</link><pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.2-week2/week2_index/</guid><description>&lt;h3 id="mục-tiêu-tuần-2">Mục tiêu tuần 2:&lt;/h3>
+&lt;ul>
+&lt;li>Module 02 Lab 10, Lab 19, Lab 03&lt;/li>
+&lt;li>Module 03 Lab 01, Lab 13&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 02 - Lab 03 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module 02-Lab03-01 -&amp;gt; Lab01-04: VPC, AWS VPN Site to site( Subnets, Route table, Internet Gateway, NAT Gateway, Security Group, Network ACLs)&lt;/td>
+ &lt;td style="text-align: left">18/08/2025&lt;/td>
+ &lt;td style="text-align: left">18/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000003.awsstudygroup.com/vi/5-vpnsitetosite/">https://000003.awsstudygroup.com/vi/5-vpnsitetosite/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 01 - Lab 10: 02, 03, 05, 06 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module 02-Lab10-01 -&amp;gt; Lab10-06: DNS, dịch vụ DNS thông qua Amazon Route 53&lt;/td>
+ &lt;td style="text-align: left">19/08/2025&lt;/td>
+ &lt;td style="text-align: left">19/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000010.awsstudygroup.com/vi/1-introduce/">https://000010.awsstudygroup.com/vi/1-introduce/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 01 - Lab 19 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module 02-Lab19-01 -&amp;gt; Lab19-07: Kết nối VPC Peering giữa hai VPC&lt;/td>
+ &lt;td style="text-align: left">20/08/2025&lt;/td>
+ &lt;td style="text-align: left">20/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000019.awsstudygroup.com/vi/1-introduce/">https://000019.awsstudygroup.com/vi/1-introduce/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 01 - Lab 20 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module 02-Lab20-01 -&amp;gt; Lab20-07: Kết nối bốn VPC thông qua AWS Transit Gateway&lt;/td>
+ &lt;td style="text-align: left">21/08/2025&lt;/td>
+ &lt;td style="text-align: left">21/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000020.awsstudygroup.com/vi/1-introduce/">https://000020.awsstudygroup.com/vi/1-introduce/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem lý thuyết Module 03-01 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Amazon Elastic Compute Cloud ( EC2 )&lt;/td>
+ &lt;td style="text-align: left">22/08/2025&lt;/td>
+ &lt;td style="text-align: left">22/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.youtube.com/watch?v=e7XeKdOVq40&amp;list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&amp;index=73">https://www.youtube.com/watch?v=e7XeKdOVq40&amp;list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&amp;index=73&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-2">Kết quả đạt được tuần 2:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>VPC, AWS VPN Site to site&lt;/p></description></item><item><title>Worklog Tuần 3</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.3-week3/week3_index/</link><pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.3-week3/week3_index/</guid><description>&lt;h3 id="mục-tiêu-tuần-3">Mục tiêu tuần 3:&lt;/h3>
+&lt;ul>
+&lt;li>Module 03: Lab 13, Lab 24, Lab 57&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Tạo kế hoạch sao lưu cho hệ thống để tự động hóa việc sao lưu.&lt;/li>
+&lt;li>Thực hiện kiểm thử sao lưu/phục hồi.&lt;/li>
+&lt;li>Thực hiện kiểm thử thông báo khi các quy trình hoàn tất.&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Module 04: Lý thuyết&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Amazon Simple Storage Service ( S3 )&lt;/li>
+&lt;li>Snow Family&lt;/li>
+&lt;li>Amazon Storage Gateway&lt;/li>
+&lt;li>Disaster Recovery on AWS&lt;/li>
+&lt;li>AWS Backup&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và thực hành Module 03-Lab13 ở Youtobe AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module03- Lab13: Sử dụng AWS Backup (Dịch vụ Sao lưu AWS) để tạo ra một kế hoạch sao lưu (backup plan) cho các tài nguyên đang hoạt động trên AWS.&lt;/td>
+ &lt;td style="text-align: left">25/08/2025&lt;/td>
+ &lt;td style="text-align: left">25/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000013.awsstudygroup.com/vi/1-introduce/">https://000013.awsstudygroup.com/vi/1-introduce/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 03 - Lab 24 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module03- Lab24: S3 bucket và tạo EC2 Instance sử dụng AMI Storage Gateway.&lt;/td>
+ &lt;td style="text-align: left">26/08/2025&lt;/td>
+ &lt;td style="text-align: left">26/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000024.awsstudygroup.com/vi/1-prepare/">https://000024.awsstudygroup.com/vi/1-prepare/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 03 - Lab 57 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module03- Lab57: Amazon Simple Storage Service (Amazon S3)&lt;/td>
+ &lt;td style="text-align: left">27/08/2025&lt;/td>
+ &lt;td style="text-align: left">27/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000057.awsstudygroup.com/vi/1-introduce/">https://000057.awsstudygroup.com/vi/1-introduce/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>:Xem lý thuyết Module 04: 01 -&amp;gt; 04 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  Lý thuyết Module04 : Amazon Simple Storage Service ( S3 ) &lt;br>  + Snow Family &lt;br>  + Amazon Storage Gateway &lt;br>  + Disaster Recovery on AWS &lt;br>  + AWS Backup&lt;/td>
+ &lt;td style="text-align: left">28/08/2025&lt;/td>
+ &lt;td style="text-align: left">28/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.youtube.com/watch?v=hsCfP0IxoaM&amp;list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&amp;index=103">https://www.youtube.com/watch?v=hsCfP0IxoaM&amp;list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&amp;index=103&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 04 - Lab 13 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module04- Lab13: Sử dụng AWS Backup (Dịch vụ Sao lưu AWS) để tạo ra một kế hoạch sao lưu (backup plan) cho các tài nguyên đang hoạt động&lt;/td>
+ &lt;td style="text-align: left">29/08/2025&lt;/td>
+ &lt;td style="text-align: left">29/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000013.awsstudygroup.com/vi/3-createbackupplan/">https://000013.awsstudygroup.com/vi/3-createbackupplan/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-3">Kết quả đạt được tuần 3:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>AWS Backup&lt;/p></description></item><item><title>Worklog Tuần 4</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.4-week4/week4_index/</link><pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.4-week4/week4_index/</guid><description>&lt;h3 id="mục-tiêu-tuần-4">Mục tiêu tuần 4:&lt;/h3>
+&lt;ul>
+&lt;li>Thực hành về VM Import/Export, một bài tập được xây dựng dựa trên kiến thức từ các bài lab trước. Để hoàn thành bài lab này, bạn cần cài đặt sẵn AWS CLI và một môi trường ảo hóa (như VMware Workstation).&lt;/li>
+&lt;li>Thực hiện việc tạo môi trường cho workshop, bao gồm việc tạo S3 bucket và tạo EC2 Instance sử dụng AMI Storage Gateway mà AWS đã cung cấp sẵn&lt;/li>
+&lt;li>Amazon S3.&lt;/li>
+&lt;li>Lý thuyết&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Share Responsibility Model&lt;/li>
+&lt;li>Amazon Identity and access management&lt;/li>
+&lt;li>Amazon Cognito&lt;/li>
+&lt;li>AWS Organization&lt;/li>
+&lt;li>AWS Identity Center&lt;/li>
+&lt;li>Amazon Key Management Service&lt;/li>
+&lt;li>AWS Security Hub&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Module 04&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 04 - Lab 14 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module04- Lab14: VM Import/Export (Để hoàn thành bài lab này, bạn cần cài đặt sẵn AWS CLI và một môi trường ảo hóa (như VMware Workstation))&lt;/td>
+ &lt;td style="text-align: left">29/09/2025&lt;/td>
+ &lt;td style="text-align: left">29/09/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000014.awsstudygroup.com/vi/">https://000014.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 04 - Lab 24 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module04- Lab24: tạo S3 bucket và tạo EC2 Instance sử dụng AMI Storage Gateway &lt;br>  - Create Storage Gateway &lt;br>  - Create File Shares &lt;br>  - Mount File shares on On-premises machine &lt;br>  - Clean up resources&lt;/td>
+ &lt;td style="text-align: left">30/09/2025&lt;/td>
+ &lt;td style="text-align: left">30/09/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000024.awsstudygroup.com/vi/1-prepare/">https://000024.awsstudygroup.com/vi/1-prepare/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 04 - Lab 57 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module04- Lab57: Hiểu về Amazon Simple Storage Service (Amazon S3) và sự khác biệt cơ bản giữa S3 Bucket và Object&lt;/td>
+ &lt;td style="text-align: left">01/10/2025&lt;/td>
+ &lt;td style="text-align: left">01/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000057.awsstudygroup.com/vi/">https://000057.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>:Xem lý thuyết Module 05: 01 -&amp;gt; 08 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Share Responsibility Model &lt;br>  + Amazon Identity and access management &lt;br>  + Amazon Cognito &lt;br>  + AWS Organization &lt;br>  + AWS Identity Center &lt;br>  + Amazon Key Management Service &lt;br>  + AWS Security Hub&lt;/td>
+ &lt;td style="text-align: left">02/10/2025&lt;/td>
+ &lt;td style="text-align: left">02/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.youtube.com/watch?v=tsobAlSg19g&amp;list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&amp;index=150">https://www.youtube.com/watch?v=tsobAlSg19g&amp;list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&amp;index=150&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: + Xem và Thực hành Module 05 - Lab 18 ở Youtube AWS Study Group &lt;br> + Xem và Thực hành Module 05 - Lab 22 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module05-LAB 18: AWS Security &lt;br>  + Module05-LAB 22: Tối ưu chi phí EC2 với Lambda.&lt;/td>
+ &lt;td style="text-align: left">03/10/2025&lt;/td>
+ &lt;td style="text-align: left">03/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000022.awsstudygroup.com/vi/">https://000022.awsstudygroup.com/vi/&lt;/a> &lt;a href="https://000018.awsstudygroup.com/vi/">https://000018.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-4">Kết quả đạt được tuần 4:&lt;/h3>
+&lt;ul>
+&lt;li>Triển khai VM Import/Export
+&lt;ul>
+&lt;li>VM Import/Export là một dịch vụ cho phép bạn import các máy ảo (VM) từ môi trường ảo hóa của bạn vào Amazon EC2 và ngược lại. Tính năng này cho phép bạn:&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Chuyển dịch các ứng dụng và tài nguyên hạ tầng từ môi trường ảo hóa on-premises sang Amazon EC2&lt;/li>
+&lt;li>Sao lưu máy ảo của bạn vào EC2&lt;/li>
+&lt;li>Tạo một kho lưu trữ các máy ảo để dự phòng và phục hồi sau sự cố&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>
+&lt;p>Triển khai File Storage Gateway&lt;/p></description></item><item><title>Worklog Tuần 5</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.5-week5/week5_index/</link><pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.5-week5/week5_index/</guid><description>&lt;h3 id="mục-tiêu-tuần-5">Mục tiêu tuần 5:&lt;/h3>
+&lt;ul>
+&lt;li>Để giúp quản lý các máy ảo, ổ đĩa và các tài nguyên khác của EC2, bài lab 27 này sẽ giúp bạn thực hành gán các metadata của mỗi tài nguyên dưới dạng Tag (Thẻ) và sử dụng Resource Group.&lt;/li>
+&lt;li>Đặc quyền IAM tối thiểu (IAM least privilege)&lt;/li>
+&lt;li>Đặc tả chính sách IAM cùng với các điều kiện (IAM policy conditions)&lt;/li>
+&lt;li>Tìm hiểu về IAM Permission Boundary.&lt;/li>
+&lt;li>Tìm hiểu về AWS Key Management Service (KMS), Amazon S3, AWS CloudTrail, AWS Athena.&lt;/li>
+&lt;li>Ôn lại khái niệm về IAM, tạo User/Group, Role.&lt;/li>
+&lt;li>Cấp quyền truy cập cho ứng dụng của bạn có thể truy cập tới các dịch vụ của AWS.&lt;/li>
+&lt;li>Module 05&lt;/li>
+&lt;li>Module 06&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>:Xem và Thực hành Module 05 - Lab 27 và Lab 28 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module05-LAB 27: Quản lý tài nguyên bằng Tag và Resource Groups &lt;br>  + Module05-LAB 28: Quản lý truy cập vào dịch vụ EC2 Resource Tag với AWS IAM.&lt;/td>
+ &lt;td style="text-align: left">06/10/2025&lt;/td>
+ &lt;td style="text-align: left">06/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000027.awsstudygroup.com/vi/0-intro/">https://000027.awsstudygroup.com/vi/0-intro/&lt;/a> &lt;a href="https://000028.awsstudygroup.com/vi/0-intro/">https://000028.awsstudygroup.com/vi/0-intro/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>:Xem và Thực hành Module 05 - Lab 30 và Lab 33 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module05-LAB 30: GIỚI HẠN QUYỀN CỦA USER VỚI IAM PERMISSION BOUNDARY &lt;br>  + Module05-LAB 33: &lt;br>  + AWS Key Management Service (KMS) &lt;br>  + Amazon S3 &lt;br>  + AWS CloudTrail &lt;br>  + AWS Athena&lt;/td>
+ &lt;td style="text-align: left">07/10/2025&lt;/td>
+ &lt;td style="text-align: left">07/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000033.awsstudygroup.com/vi/1-introduce/">https://000033.awsstudygroup.com/vi/1-introduce/&lt;/a> &lt;a href="https://000030.awsstudygroup.com/vi/1-introduce/">https://000030.awsstudygroup.com/vi/1-introduce/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 05 - Lab 44 và Lab 48 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module05-LAB 44: IAM ( User/Group, Role) &lt;br>  + Module05-LAB 48: Cấp quyền cho ứng dụng truy cập dịch vụ AWS với IAM Role&lt;/td>
+ &lt;td style="text-align: left">08/10/2025&lt;/td>
+ &lt;td style="text-align: left">08/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000044.awsstudygroup.com/vi/1-iam-intro/">https://000044.awsstudygroup.com/vi/1-iam-intro/&lt;/a> &lt;a href="https://000048.awsstudygroup.com/vi/">https://000048.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và thực hành Module 06 Lab 05 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  Lý thuyết: &lt;br>  + Database Concepts &lt;br>  + Amazon RDS &lt;br>  + Amazon Aurora &lt;br>  + Amazon Elasticache &lt;br>  + Amazon Redshift&lt;/td>
+ &lt;td style="text-align: left">09/10/2025&lt;/td>
+ &lt;td style="text-align: left">09/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://www.youtube.com/watch?v=OOD2RwWuLRw&amp;list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&amp;index=217">https://www.youtube.com/watch?v=OOD2RwWuLRw&amp;list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&amp;index=217&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và thực hành Module 06 Lab 05 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module06-LAB 05: Amazon Relational Database Service (Amazon RDS)&lt;/td>
+ &lt;td style="text-align: left">10/10/2025&lt;/td>
+ &lt;td style="text-align: left">10/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000005.awsstudygroup.com/vi/">https://000005.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-5">Kết quả đạt được tuần 5:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Gán các metadata của mỗi tài nguyên dưới dạng Tag (Thẻ) và sử dụng Resource Group.&lt;/p></description></item><item><title>Worklog Tuần 6</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.6-week6/week6_index/</link><pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.6-week6/week6_index/</guid><description>&lt;h3 id="mục-tiêu-tuần-6">Mục tiêu tuần 6:&lt;/h3>
+&lt;ul>
+&lt;li>Chúng ta sẽ tận dụng AWS Glue để làm data catalogue. Amazon Athena được sử dụng để truy vấn data trong data lake và Amazon QuickSight để biểu diễn data.&lt;/li>
+&lt;li>Tìm hiểu về Amazon DynamoDB.&lt;/li>
+&lt;li>Tìm hiểu về AWS Glue &amp;amp; Amazon Athena.&lt;/li>
+&lt;li>Workshop về Analytics trên AWS&lt;/li>
+&lt;li>Module 07&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 07 - Lab 35 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module07-LAB 35: DataLake on AWS &lt;br> &lt;/td>
+ &lt;td style="text-align: left">13/10/2025&lt;/td>
+ &lt;td style="text-align: left">13/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000035.awsstudygroup.com/vi/1-introduce/">https://000035.awsstudygroup.com/vi/1-introduce/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 07 - Lab 39 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module07-LAB 39: Amazon DynamoDB Immersion Day&lt;/td>
+ &lt;td style="text-align: left">14/10/2025&lt;/td>
+ &lt;td style="text-align: left">14/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000039.awsstudygroup.com/vi/">https://000039.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 07 - Lab 40 ở Youtube AWS Study Grou &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module07-LAB 40: AWS Glue &amp;amp; Amazon Athena&lt;/td>
+ &lt;td style="text-align: left">15/10/2025&lt;/td>
+ &lt;td style="text-align: left">15/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000040.awsstudygroup.com/vi/">https://000040.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 07 - Lab 60 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module07-LAB 60: Làm việc với Amazon DynamoDB&lt;/td>
+ &lt;td style="text-align: left">16/10/2025&lt;/td>
+ &lt;td style="text-align: left">16/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000060.awsstudygroup.com/vi/1-using-tags">https://000060.awsstudygroup.com/vi/1-using-tags&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Xem và Thực hành Module 07 - Lab 72 ở Youtube AWS Study Group &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Module07-LAB 72: Analytics on AWS workshop&lt;/td>
+ &lt;td style="text-align: left">17/10/2025&lt;/td>
+ &lt;td style="text-align: left">17/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000072.awsstudygroup.com/vi/1-using-tags">https://000072.awsstudygroup.com/vi/1-using-tags&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-6">Kết quả đạt được tuần 6:&lt;/h3>
+&lt;p>Data Lake là một thuật ngữ chuyên môn có liên quan đến Big Data (Dữ liệu lớn). Data Lake đơn giản là nơi chứa dữ liệu thô (chưa xử lý) chờ được xử lý phân tích và đưa ra các đánh giá nhận xét (insight).&lt;/p></description></item><item><title>Worklog Tuần 7</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.7-week7/week7_index/</link><pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.7-week7/week7_index/</guid><description>&lt;h3 id="mục-tiêu-tuần-7">Mục tiêu tuần 7:&lt;/h3>
+&lt;ul>
+&lt;li>Tìm hiểu cách triển khai ứng dụng web TravelBuddy để chạy trên AWS.&lt;/li>
+&lt;li>Hiểu dịch vụ AWS cơ bản, cách dùng console &amp;amp; CLI.&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">Cuối tuần bận công việc&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Lab 50: Dịch chuyển ứng dụng Monolith &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  +LAB 50: Chuyển đổi Ứng dụng Monolith&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000050.awsstudygroup.com/vi/">https://000050.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Nghiên cứu bổ sung tuần 1: AWS Well-Architected Operational Excellence Workshop &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br> &lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: + xem lại lý thuyết Week 2: Database and storage foundation &lt;br>  + xem lại lý thuyết Week 3: Soft skills and SoW Best practices &lt;br> &lt;strong>Thực hành:&lt;/strong> &lt;br>  Xem và nắm rõ lại lý thuyết Week 2 và Week 3 ở web AWS Special Force Portal (đầy đủ hơn trên youtobe)&lt;/td>
+ &lt;td style="text-align: left">14/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: + xem lại lý thuyết Week4: Amazon EKS &lt;strong>Thực hành:&lt;/strong> &lt;br>  Xem và nắm rõ lại lý thuyết Week 4 ở web AWS Special Force Portal (đầy đủ hơn trên youtobe)&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-7">Kết quả đạt được tuần 7:&lt;/h3>
+&lt;p>Triển khai ứng dụng web TravelBuddy:&lt;/p></description></item><item><title>Worklog Tuần 8</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.8-week8/week8_index/</link><pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.8-week8/week8_index/</guid><description>&lt;h3 id="mục-tiêu-tuần-8">Mục tiêu tuần 8:&lt;/h3>
+&lt;ul>
+&lt;li>Chuẩn bị và cài đặt tài nguyên làm workshop.&lt;/li>
+&lt;/ul>
+&lt;p>Tìm hiểu về:&lt;/p>
+&lt;ul>
+&lt;li>Các khái niệm nền tảng của Serverless Computing&lt;/li>
+&lt;li>Thực hành xây dựng Lambda function được kích hoạt bởi sự kiện từ S3&lt;/li>
+&lt;li>Cách tương tác và lưu trữ dữ liệu vào DynamoDB thông qua Lambda&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: Chuẩn bị và cài đặt tài nguyên làm workshop. &lt;br>  + Tải Hugo Theme&lt;br>  + Tải Snagit &lt;br>  + Tải Active Presenter &lt;br>  + Tải Draw.io&lt;/td>
+ &lt;td style="text-align: left">27/10/2025&lt;/td>
+ &lt;td style="text-align: left">27/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://van-hoang-kha.github.io/1-introduce/">https://van-hoang-kha.github.io/1-introduce/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: + xem lại lý thuyết Week5: Amazon ECS and Fargate &lt;strong>Thực hành:&lt;/strong> &lt;br>  Xem và nắm rõ lại lý thuyết Week 5 ở web AWS Special Force Portal (đầy đủ hơn trên youtobe).&lt;/td>
+ &lt;td style="text-align: left">28/10/2025&lt;/td>
+ &lt;td style="text-align: left">28/10/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;lt;&amp;gt;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: + xem lại lý thuyết Week 6: Observability &amp;amp; Cost Management &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Xem và nắm rõ lại lý thuyết Week 6 ở web AWS Special Force Portal (đầy đủ hơn trên youtobe).&lt;/td>
+ &lt;td style="text-align: left">29/10/2025&lt;/td>
+ &lt;td style="text-align: left">29/10/2025&lt;/td>
+ &lt;td style="text-align: left">&amp;lt;&amp;gt;&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: + xem lại lý thuyết Week 7: Migrate &amp;amp; Modernize with AWS &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Xem và nắm rõ lại lý thuyết Week 7 ở web AWS Special Force Portal (đầy đủ hơn trên youtobe).&lt;/td>
+ &lt;td style="text-align: left">30/10/2025&lt;/td>
+ &lt;td style="text-align: left">30/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">&lt;strong>Nhiệm vụ&lt;/strong>: lab 78 : Serverless - Lambda tương tác với S3 và DynamoDB &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Lab 78: Serverless - Tương tác giữa Lambda với S3 và DynamoDB&lt;/td>
+ &lt;td style="text-align: left">31/10/2025&lt;/td>
+ &lt;td style="text-align: left">31/10/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://000078.awsstudygroup.com/vi/">https://000078.awsstudygroup.com/vi/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-8">Kết quả đạt được tuần 8:&lt;/h3>
+&lt;p>Cách triển khai Hugo&lt;/p></description></item><item><title>Worklog Tuần 9</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.9-week9/week9_index/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.9-week9/week9_index/</guid><description>&lt;div
+ class="notices warning"
+ 
+>
+ &lt;p>⚠️ &lt;strong>Lưu ý:&lt;/strong> Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng &lt;strong>không sao chép nguyên văn&lt;/strong> cho bài báo cáo của bạn kể cả warning này.&lt;/p>
+
+&lt;/div>
+
+&lt;h3 id="mục-tiêu-tuần-9">Mục tiêu tuần 9:&lt;/h3>
+&lt;ul>
+&lt;li>Kết nối, làm quen với các thành viên trong First Cloud Journey.&lt;/li>
+&lt;li>Hiểu dịch vụ AWS cơ bản, cách dùng console &amp;amp; CLI.&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">- Làm quen với các thành viên FCJ &lt;br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">- Tìm hiểu AWS và các loại dịch vụ &lt;br>  + Compute &lt;br>  + Storage &lt;br>  + Networking &lt;br>  + Database &lt;br>  + &amp;hellip; &lt;br>&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">- Tạo AWS Free Tier account &lt;br> - Tìm hiểu AWS Console &amp;amp; AWS CLI &lt;br> - &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Tạo AWS account &lt;br>  + Cài AWS CLI &amp;amp; cấu hình &lt;br>   + Cách sử dụng AWS CLI&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">- Tìm hiểu EC2 cơ bản: &lt;br>  + Instance types &lt;br>  + AMI &lt;br>  + EBS &lt;br>  + &amp;hellip; &lt;br> - Các cách remote SSH vào EC2 &lt;br> - Tìm hiểu Elastic IP &lt;br>&lt;/td>
+ &lt;td style="text-align: left">14/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">- &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Tạo EC2 instance &lt;br>  + Kết nối SSH &lt;br>  + Gắn EBS volume&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-9">Kết quả đạt được tuần 9:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản:&lt;/p></description></item><item><title>Worklog Tuần 10</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.10-week10/week10_index/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.10-week10/week10_index/</guid><description>&lt;div
+ class="notices warning"
+ 
+>
+ &lt;p>⚠️ &lt;strong>Lưu ý:&lt;/strong> Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng &lt;strong>không sao chép nguyên văn&lt;/strong> cho bài báo cáo của bạn kể cả warning này.&lt;/p>
+
+&lt;/div>
+
+&lt;h3 id="mục-tiêu-tuần-10">Mục tiêu tuần 10:&lt;/h3>
+&lt;ul>
+&lt;li>Kết nối, làm quen với các thành viên trong First Cloud Journey.&lt;/li>
+&lt;li>Hiểu dịch vụ AWS cơ bản, cách dùng console &amp;amp; CLI.&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">- Làm quen với các thành viên FCJ &lt;br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">- Tìm hiểu AWS và các loại dịch vụ &lt;br>  + Compute &lt;br>  + Storage &lt;br>  + Networking &lt;br>  + Database &lt;br>  + &amp;hellip; &lt;br>&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">- Tạo AWS Free Tier account &lt;br> - Tìm hiểu AWS Console &amp;amp; AWS CLI &lt;br> - &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Tạo AWS account &lt;br>  + Cài AWS CLI &amp;amp; cấu hình &lt;br>   + Cách sử dụng AWS CLI&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">- Tìm hiểu EC2 cơ bản: &lt;br>  + Instance types &lt;br>  + AMI &lt;br>  + EBS &lt;br>  + &amp;hellip; &lt;br> - Các cách remote SSH vào EC2 &lt;br> - Tìm hiểu Elastic IP &lt;br>&lt;/td>
+ &lt;td style="text-align: left">14/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">- &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Tạo EC2 instance &lt;br>  + Kết nối SSH &lt;br>  + Gắn EBS volume&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-10">Kết quả đạt được tuần 10:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản:&lt;/p></description></item><item><title>Worklog Tuần 11</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.11-week11/week11_index/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.11-week11/week11_index/</guid><description>&lt;div
+ class="notices warning"
+ 
+>
+ &lt;p>⚠️ &lt;strong>Lưu ý:&lt;/strong> Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng &lt;strong>không sao chép nguyên văn&lt;/strong> cho bài báo cáo của bạn kể cả warning này.&lt;/p>
+
+&lt;/div>
+
+&lt;h3 id="mục-tiêu-tuần-11">Mục tiêu tuần 11:&lt;/h3>
+&lt;ul>
+&lt;li>Kết nối, làm quen với các thành viên trong First Cloud Journey.&lt;/li>
+&lt;li>Hiểu dịch vụ AWS cơ bản, cách dùng console &amp;amp; CLI.&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">- Làm quen với các thành viên FCJ &lt;br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">- Tìm hiểu AWS và các loại dịch vụ &lt;br>  + Compute &lt;br>  + Storage &lt;br>  + Networking &lt;br>  + Database &lt;br>  + &amp;hellip; &lt;br>&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">- Tạo AWS Free Tier account &lt;br> - Tìm hiểu AWS Console &amp;amp; AWS CLI &lt;br> - &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Tạo AWS account &lt;br>  + Cài AWS CLI &amp;amp; cấu hình &lt;br>   + Cách sử dụng AWS CLI&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">- Tìm hiểu EC2 cơ bản: &lt;br>  + Instance types &lt;br>  + AMI &lt;br>  + EBS &lt;br>  + &amp;hellip; &lt;br> - Các cách remote SSH vào EC2 &lt;br> - Tìm hiểu Elastic IP &lt;br>&lt;/td>
+ &lt;td style="text-align: left">14/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">- &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Tạo EC2 instance &lt;br>  + Kết nối SSH &lt;br>  + Gắn EBS volume&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-11">Kết quả đạt được tuần 11:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản:&lt;/p></description></item><item><title>Worklog Tuần 12</title><link>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.12-week12/week12_index/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://thienluhoan.github.io/workshop-template/vi/1-worklog/1.12-week12/week12_index/</guid><description>&lt;div
+ class="notices warning"
+ 
+>
+ &lt;p>⚠️ &lt;strong>Lưu ý:&lt;/strong> Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng &lt;strong>không sao chép nguyên văn&lt;/strong> cho bài báo cáo của bạn kể cả warning này.&lt;/p>
+
+&lt;/div>
+
+&lt;h3 id="mục-tiêu-tuần-12">Mục tiêu tuần 12:&lt;/h3>
+&lt;ul>
+&lt;li>Kết nối, làm quen với các thành viên trong First Cloud Journey.&lt;/li>
+&lt;li>Hiểu dịch vụ AWS cơ bản, cách dùng console &amp;amp; CLI.&lt;/li>
+&lt;/ul>
+&lt;h3 id="các-công-việc-cần-triển-khai-trong-tuần-này">Các công việc cần triển khai trong tuần này:&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Thứ&lt;/th>
+ &lt;th style="text-align: left">Công việc&lt;/th>
+ &lt;th style="text-align: left">Ngày bắt đầu&lt;/th>
+ &lt;th style="text-align: left">Ngày hoàn thành&lt;/th>
+ &lt;th style="text-align: left">Nguồn tài liệu&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">- Làm quen với các thành viên FCJ &lt;br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">11/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">- Tìm hiểu AWS và các loại dịch vụ &lt;br>  + Compute &lt;br>  + Storage &lt;br>  + Networking &lt;br>  + Database &lt;br>  + &amp;hellip; &lt;br>&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">12/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">- Tạo AWS Free Tier account &lt;br> - Tìm hiểu AWS Console &amp;amp; AWS CLI &lt;br> - &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Tạo AWS account &lt;br>  + Cài AWS CLI &amp;amp; cấu hình &lt;br>   + Cách sử dụng AWS CLI&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">13/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">- Tìm hiểu EC2 cơ bản: &lt;br>  + Instance types &lt;br>  + AMI &lt;br>  + EBS &lt;br>  + &amp;hellip; &lt;br> - Các cách remote SSH vào EC2 &lt;br> - Tìm hiểu Elastic IP &lt;br>&lt;/td>
+ &lt;td style="text-align: left">14/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">- &lt;strong>Thực hành:&lt;/strong> &lt;br>  + Tạo EC2 instance &lt;br>  + Kết nối SSH &lt;br>  + Gắn EBS volume&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">15/08/2025&lt;/td>
+ &lt;td style="text-align: left">&lt;a href="https://cloudjourney.awsstudygroup.com/">https://cloudjourney.awsstudygroup.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="kết-quả-đạt-được-tuần-12">Kết quả đạt được tuần 12:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản:&lt;/p></description></item></channel></rss>
