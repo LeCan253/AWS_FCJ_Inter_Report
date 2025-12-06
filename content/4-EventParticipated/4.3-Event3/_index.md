@@ -1,3 +1,11 @@
+---
+title: "Event 3"
+date: 2025-12-01
+weight: 1
+chapter: false
+pre: " <b> 4.2. </b> "
+---
+
 # Summary Report: “AWS Well-Architected Framework – Security Pillar Workshop”
 
 ### Event Objectives
