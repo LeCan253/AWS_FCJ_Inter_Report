@@ -151,11 +151,13 @@ Executive Sponsor & Stakeholders
 Team: First Cloud Journey
 
 Project Team
-
-| Name             | Role                   | Responsibility  | Contact |
-| ---------------- | ---------------------- | --------------- | ------- |
-| ...              | ...                    | ...             | –       |
-| ...              | ...                    | ...             | –       |
+| Name             | Student ID | Email / Contact                  |
+|------------------|-------------|----------------------------------|
+| Lê Công Cảnh     | SE183750    | canhlcse183750@fpt.edu.vn       |
+| Phùng Gia Đức    | SE183187    | ducpgse183187@fpt.edu.vn        |
+| Vũ Nguyễn Bình   | SE193185    | vunguyenbinh25@gmail.com        |
+| Lê Minh Dương    | SE184079    | duonglmse184079@fpt.edu.vn      |
+| Nguyễn Phi Duy   | SE180529    | duynpse180529@fpt.edu.vn        |
 
 ### 6. RESOURCES & COST ESTIMATES
 See the cost estimate on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01) or download the [budget estimation file](../attachments/budget_estimation.pdf).
