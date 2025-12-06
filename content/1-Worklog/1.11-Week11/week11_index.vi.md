@@ -1,59 +1,38 @@
 ---
 title: "Worklog Tuần 11"
-date: 2025-09-30
+date: 2025-11-12
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 11:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Bổ sung kiến thức chuyên sâu về AWS Security, DevOps từ Event.
+* Cách cấu hình Amazon Data Lifecycle Manager (DLM).
+* AWS Backup để cấu hình chế độ theo dõi và phát hiện bất thường
+* Sử dụng Amazon Macie để quét và phát hiện thông tin nhạy cảm trong các S3 bucket.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | **Nhiệm vụ**:  lab 88 :  Tự động lưu trữ Amazon EBS Snapshot với Amazon Data Lifecycle Manager <br> **Thực hành:** <br>&emsp; lab 87 :  Tự động lưu trữ Amazon EBS Snapshot với Amazon Data Lifecycle Manager                                                                                        | 12/11/2025   | 12/11/2025      | <https://000088.awsstudygroup.com/vi/> |
+| 3   | **Nhiệm vụ**:  lab 89 :  Phát hiện bất thường AWS Backup cho ổ đĩa Amazon EBS <br> **Thực hành:** <br>&emsp; lab 89 :  Phát hiện bất thường AWS Backup cho ổ đĩa Amazon EBS                                        | 13/11/2025   | 13/11/2025      | <https://000089.awsstudygroup.com/vi/> |
+| 4   | **Nhiệm vụ**:  lab 90 :  Khám phá dữ liệu nhạy cảm có trong S3 bucket bằng Amazon Macie <br> **Thực hành:** <br>&emsp; lab 90 : Khám phá dữ liệu nhạy cảm có trong S3 bucket bằng Amazon Macie | 14/11/2025   | 14/11/2025      | <https://000090.awsstudygroup.com/vi/> |
+| 5   | - Tham gia **Event** AWS CLOUD MASTER SERIES #1 | 15/11/2025   | 15/11/2025      |  |
+| 6   | - Tham gia **Event** AWS CLOUD MASTER SERIES #2                                             | 17/08/2025   | 17/08/2025      | |
 
 
 ### Kết quả đạt được tuần 11:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Bổ sung kiến thức chuyên sâu về AWS Security, DevOps, và tối ưu chi phí.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Học hỏi nhiều kinh nghiệm thực tế từ chuyên gia AWS.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Thiết lập thành công chính sách tự động hóa snapshot theo lịch định kỳ
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Thiết lập AWS Backup Vault và chính sách giám sát backup.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Bật tính năng Backup Audit Manager để phát hiện hành vi bất thường.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
 
 
