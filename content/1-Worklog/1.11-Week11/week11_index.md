@@ -1,57 +1,35 @@
 ---
 title: "Week 11 Worklog"
-date: 2025-09-30
-weight: 2
+date: 2025-11-12
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 11 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Gain advanced knowledge on AWS Security, DevOps from Events.
+- How to configure Amazon Data Lifecycle Manager (DLM).
+- AWS Backup to configure monitoring and anomaly detection.
+- Use Amazon Macie to scan and detect sensitive information in S3 buckets.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task                                                                                                                                                                                       | Start Date  | End Date        | Resources                                  |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | --------------- | ------------------------------------------ |
+| 2   | **Task**: Lab 88: Automate Amazon EBS Snapshot archiving with Amazon Data Lifecycle Manager <br> **Practice:** <br>&emsp; Lab 88: Automate Amazon EBS Snapshot archiving with Amazon Data Lifecycle Manager                                                                          | 12/11/2025  | 12/11/2025      | <https://000088.awsstudygroup.com/vi/>    |
+| 3   | **Task**: Lab 89: Anomaly detection AWS Backup for Amazon EBS volumes <br> **Practice:** <br>&emsp; Lab 89: Anomaly detection AWS Backup for Amazon EBS volumes                            | 13/11/2025  | 13/11/2025      | <https://000089.awsstudygroup.com/vi/>    |
+| 4   | **Task**: Lab 90: Discover sensitive data in S3 buckets using Amazon Macie <br> **Practice:** <br>&emsp; Lab 90: Discover sensitive data in S3 buckets using Amazon Macie                  | 14/11/2025  | 14/11/2025      | <https://000090.awsstudygroup.com/vi/>    |
+| 5   | - Attend **Event** AWS CLOUD MASTER SERIES #1                                                                                                                                             | 15/11/2025  | 15/11/2025      |                                            |
+| 6   | - Attend **Event** AWS CLOUD MASTER SERIES #2                                                                                                                                             | 17/08/2025  | 17/08/2025      |                                            |
 
 ### Week 11 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Gain advanced knowledge on AWS Security, DevOps, and cost optimization.
 
-* Successfully created and configured an AWS Free Tier account.
+- Learn practical experience from AWS experts.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Successfully set up automated snapshot archival policies on a scheduled basis.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+- Configure AWS Backup Vault and backup monitoring policies.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Enable Backup Audit Manager to detect unusual behavior.
