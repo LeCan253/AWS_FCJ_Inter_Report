@@ -1,59 +1,34 @@
 ---
 title: "Worklog Tuần 9"
-date: 2025-09-30
+date: 2025-11-01
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 9:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hiểu về Serverless
+* Week 8: Managing and Governing multi-account AWS environments.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | **Nhiệm vụ**:  lab 79 : Serverless - Lambda tương tác với S3 và DynamoDB <br> **Thực hành:** <br>&emsp;   + Lab 79 : Serverless - Hướng dẫn viết Frontend gọi API Gateway                                                                                  | 1/11/2025   | 1/11/2025      | https://000079.awsstudygroup.com/vi/ |
+| 3   | **Nhiệm vụ**:  lab 80 :  Lab-Serverless - Triển khai ứng dụng bằng SAM <br> **Thực hành:** <br>&emsp;   +lab 80 :  Lab-Serverless - Triển khai ứng dụng bằng SAM                                            | 3/11/2025   | 3/11/2025      | https://000080.awsstudygroup.com/vi/ |
+| 4   | **Nhiệm vụ**:  lab 81 : Lab-Serverless - Xác thực với Amazon Cognito <br> **Thực hành:** <br>&emsp;   + lab 81 :  Lab-Serverless - Xác thực với Amazon Cognito | 4/11/2025   | 4/11/2025      | https://000081.awsstudygroup.com/vi/ |
+| 5   | **Nhiệm vụ**:  lab 82 :  Lab-Serverless - Thiết lập trang website static có SSL trên S3 <br> **Thực hành:** <br>&emsp;  lab 82 :  Lab-Serverless - Thiết lập trang website static có SSL trên S3                  | 4/11/2025   | 4/11/2025      | https://000082.awsstudygroup.com/vi/ |
+| 6   | **Nhiệm vụ**:  lab 83 :  Lab-Serverless - Xử lý đơn hàng với SQS-SNS <br> Week 8: Managing and Governing multi-account AWS environments. <br> **Thực hành:** <br>&emsp;   + lab 83 :  Lab-Serverless - Xử lý đơn hàng với SQS-SNS <br>&emsp; + Week 8: Managing and Governing multi-account AWS environments.                                                                                  | 5/11/2025   | 5/11/2025      | https://000083.awsstudygroup.com/vi/ |
 
 
 ### Kết quả đạt được tuần 9:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Nắm vững cơ chế vận hành Serverless và kiến trúc sự kiện 
+  * Hiểu rõ mô hình Serverless, lợi ích và các thành phần chính trên AWS như Lambda, API Gateway, S3, DynamoDB, SQS, SNS.
+  * Áp dụng tư duy thiết kế event-driven, xử lý tác vụ bất đồng bộ, giảm tải hệ thống backend.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Tự tin thiết kế và triển khai ứng dụng thật sử dụng các dịch vụ AWS Serverless.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hiểu sâu mô hình multi-account và quản trị doanh nghiệp trên AWS.
 
 
