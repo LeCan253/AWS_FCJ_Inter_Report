@@ -1,59 +1,39 @@
 ---
 title: "Worklog Tuần 10"
-date: 2025-09-30
+date: 2025-11-06
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hiểu thêm về AWS Appsync
+* Thành thạo hơn trong môi trường phát triển AWS nhờ AWS Toolkit
+* Chuẩn bị cho workshop
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | **Nhiệm vụ**:  lab 84 :  Lab- Serverless - CI/CD với CodePipelin <br> **Thực hành:** <br>&emsp;  lab 84 :  Lab- Serverless - CI/CD với CodePipelin                                                                                           | 6/11/2025   | 6/11/2025      | <https://000084.awsstudygroup.com/vi/>
+| 3   | **Nhiệm vụ**:  lab 85 :  Lab- Serverless - Giám sát Lambda với CloudWatch và X-Ray <br> **Thực hành:** <br>&emsp; lab 85 :  Lab- Serverless - Giám sát Lambda với CloudWatch và X-Ray                             | 7/11/2025   | 7/11/2025      | <https://000085.awsstudygroup.com/vi/> |
+| 4   | - Tìm hiểu các chủ đề để viết WorkShop, cách viết workshop, các phần mềm cần thiết để viết... <br>  | 8/11/2025   | 8/11/2025      |  |
+| 5   | **Nhiệm vụ**:  lab 86 :  Serverless - Giới thiệu AWS Appsync <br> **Thực hành:** <br>&emsp; lab 86 :  Serverless - Giới thiệu AWS Appsync                  | 10/11/2025   | 10/11/2025      | <https://000086.awsstudygroup.com/vi/> |
+| 6   | **Nhiệm vụ**:  lab 87 :  AWS Toolkit for VS Code: Amazon Q & CodeWhisperer <br> **Thực hành:** <br>&emsp; lab 87 :  AWS Toolkit for VS Code: Amazon Q & CodeWhisperer                                                                                        | 11/11/2025   | 11/11/2025      | <https://000087.awsstudygroup.com/vi/> |
 
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiểu và triển khai thành công CI/CD pipeline dành cho ứng dụng Serverless.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Làm chủ công cụ giám sát và debug CloudWatch & X-Ray, phục vụ vận hành thực tế.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Biết cách viết và xuất bản một AWS Workshop hoàn chỉnh.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Mở rộng kiến thức với AppSync, GraphQL trong kiến trúc Serverless hiện đại.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Thành thạo hơn trong môi trường phát triển AWS nhờ AWS Toolkit, Amazon Q & CodeWhisperer.
 
 
