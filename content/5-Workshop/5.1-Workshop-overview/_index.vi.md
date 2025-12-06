@@ -1,6 +1,6 @@
 ---
 title : "Giới thiệu"
-date :  2025-09-30 
+date :  2025-12-01 
 weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
@@ -8,12 +8,14 @@ pre : " <b> 5.1. </b> "
 
 #### Giới thiệu về VPC Endpoint
 
-+ Điểm cuối VPC (endpoint) là thiết bị ảo. Chúng là các thành phần VPC có thể mở rộng theo chiều ngang, dự phòng và có tính sẵn sàng cao. Chúng cho phép giao tiếp giữa tài nguyên điện toán của bạn và dịch vụ AWS mà không gây ra rủi ro về tính sẵn sàng.
-+ Tài nguyên điện toán đang chạy trong VPC có thể truy cập Amazon S3 bằng cách sử dụng điểm cuối Gateway. Interface Endpoint  PrivateLink có thể được sử dụng bởi tài nguyên chạy trong VPC hoặc tại TTDL.
++ VPC Endpoint là một thiết bị ảo trong VPC, cho phép tài nguyên nội bộ (EC2, Lambda, CodeBuild, CodePipeline…) truy cập các dịch vụ AWS mà không cần đi qua Internet công cộng. Điều này giúp giảm rủi ro, tăng tính bảo mật và đảm bảo độ sẵn sàng cao.
++ Với Gateway Endpoint, các dịch vụ như Amazon S3 có thể được truy cập trực tiếp từ VPC mà không qua Internet.
++ Với Interface Endpoint (AWS PrivateLink), các dịch vụ như Security Hub, ECR API, SNS, hoặc CodeGuru Reviewer có thể được truy cập riêng tư giữa các dịch vụ trong AWS, giúp pipeline DevSecOps hoạt động an toàn và ổn định ngay cả khi không mở Internet outbound.
 
 #### Tổng quan về workshop
-Trong workshop này, bạn sẽ sử dụng hai VPC.
-+ **"VPC Cloud"** dành cho các tài nguyên cloud như Gateway endpoint và EC2 instance để kiểm tra.
-+ **"VPC On-Prem"** mô phỏng môi trường truyền thống như nhà máy hoặc trung tâm dữ liệu của công ty. Một EC2 Instance chạy phần mềm StrongSwan VPN đã được triển khai trong "VPC On-prem" và được cấu hình tự động để thiết lập đường hầm VPN Site-to-Site với AWS Transit Gateway. VPN này mô phỏng kết nối từ một vị trí tại TTDL (on-prem) với AWS cloud. Để giảm thiểu chi phí, chỉ một phiên bản VPN được cung cấp để hỗ trợ workshop này. Khi lập kế hoạch kết nối VPN cho production workloads của bạn, AWS khuyên bạn nên sử dụng nhiều thiết bị VPN để có tính sẵn sàng cao.
+
++ Pipeline sử dụng một VPC duy nhất, trong đó các dịch vụ CI/CD và bảo mật được kết nối nội bộ thông qua VPC Endpoint:
++ **Security VPC** là nơi đặt các tài nguyên chính của pipeline như CodeBuild, Lambda phục vụ việc phân tích, gateway endpoint để truy cập S3, và interface endpoint để kết nối với Security Hub, ECR, CodeGuru Reviewer, SNS,… VPC này mô phỏng môi trường cloud thực tế, nơi mọi hoạt động scan – build – phân tích đều được xử lý trong mạng riêng tư.
++ **Trong pipeline, CodeBuild** sẽ lần lượt quét lỗ hổng trong image/container bằng Trivy , uét bảo mật Python/JS bằng Bandit , phân tích chất lượng mã nguồn với SonarQube , ẩy kết quả cảnh báo lên AWS Security Hub ,gửi cảnh báo real-time qua SNS
 
 ![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
