@@ -38,3 +38,14 @@ During my internship, I participated in two events. Each one was a memorable exp
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
 &emsp;**Role:** Attendee  
+
+---
+### [Event 3](4.3-Event3/)  
+&emsp;**Event Name:** AWS CLOUD MASTER SERIES #3
+
+&emsp;**Date & Time:** 08:30, November 29, 2025  
+
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+
+&emsp;**Role:** Attendee 
+
