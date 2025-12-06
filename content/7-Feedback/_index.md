@@ -6,31 +6,26 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud Journey program. This will help the FCJ team improve any shortcomings based on the following aspects:
 
 ### Overall Evaluation
 
 **1. Working Environment**  
-The working environment is very friendly and open. FCJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+During my time in the program, I felt that the working environment was very open and friendly. The team members were always willing to support me when I encountered difficulties, whether it was a technical issue or a small task. The working space was quite comfortable and created a sense of concentration. If there were more team bonding activities, the experience would be more complete.
 
 **2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+The mentor guides enthusiastically, always gives clear comments and explains thoroughly when I do not understand the problem. The admin team processes documents quickly, provides complete documents and always follows up to ensure I do not get stuck. What I like most is that the mentor encourages me to experiment and find solutions myself instead of giving me the answer right away.
 
 **3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+The assigned tasks are directly related to the knowledge I learned at school, and at the same time, they also open up many new aspects that I have never been exposed to before. Thanks to that, I not only consolidate the theory but also learn more practical things.
 
 **4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+During my internship, I was exposed to more professional working tools, familiarized myself with teamwork and internal communication processes. In addition, the mentor's sharing of career experiences helped me see my future direction more clearly.
 
 **5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+The team culture is very positive. Everyone collaborates freely, respects each other, and always maintains a positive attitude towards work. When faced with urgent deadlines, the whole team works together to complete them. That makes me feel like I am not alone even though I am just an intern.
 
 **6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+The company supports reasonable allowances and creates flexible conditions regarding time when I have a study schedule or personal problems. In addition, participating in internal training sessions also helps me learn more practical knowledge.
 
 ---
 
