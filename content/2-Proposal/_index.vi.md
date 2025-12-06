@@ -143,10 +143,13 @@ Team First Cloud Journey
 
 *Đội ngũ triển khai (Project Team)* 
 
-| Tên              | Chức vụ                | Vai trò         | Liên hệ |
-| ---------------- | ---------------------- | --------------- | ------- |
-| ...              | ...                    | ...             | –       |
-| ...              | ...                    | ...             | –       |
+| Name             | Student ID | Email / Contact                  |
+|------------------|-------------|----------------------------------|
+| Lê Công Cảnh     | SE183750    | canhlcse183750@fpt.edu.vn       |
+| Phùng Gia Đức    | SE183187    | ducpgse183187@fpt.edu.vn        |
+| Vũ Nguyễn Bình   | SE193185    | vunguyenbinh25@gmail.com        |
+| Lê Minh Dương    | SE184079    | duonglmse184079@fpt.edu.vn      |
+| Nguyễn Phi Duy   | SE180529    | duynpse180529@fpt.edu.vn        |
 
 ### 6. NGUỒN LỰC & ƯỚC TÍNH CHI PHÍ (RESOURCES & COST ESTIMATES)
 Có thể xem chi phí trên [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01) Hoặc tải [tệp ước tính ngân sách](../attachments/budget_estimation.pdf).
