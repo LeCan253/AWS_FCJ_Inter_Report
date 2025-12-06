@@ -1,57 +1,34 @@
 ---
 title: "Week 10 Worklog"
-date: 2025-09-30
-weight: 2
+date: 2025-11-06
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 10 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Learn more about AWS AppSync
+- Gain proficiency in AWS development environment using AWS Toolkit
+- Prepare for the workshop
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks planned for this week:
+| Day | Task                                                                                                                                                                                       | Start Date  | End Date        | Resources                                  |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | --------------- | ------------------------------------------ |
+| 2   | **Task**: Lab 84: Lab-Serverless - CI/CD with CodePipeline <br> **Practice:** <br>&emsp; Lab 84: Lab-Serverless - CI/CD with CodePipeline                                                | 6/11/2025   | 6/11/2025       | <https://000084.awsstudygroup.com/vi/>    |
+| 3   | **Task**: Lab 85: Lab-Serverless - Monitoring Lambda with CloudWatch and X-Ray <br> **Practice:** <br>&emsp; Lab 85: Lab-Serverless - Monitoring Lambda with CloudWatch and X-Ray        | 7/11/2025   | 7/11/2025       | <https://000085.awsstudygroup.com/vi/>    |
+| 4   | - Research topics for writing a Workshop, how to write workshops, necessary software tools for writing... <br> | 8/11/2025   | 8/11/2025       |                                            |
+| 5   | **Task**: Lab 86: Serverless - Introduction to AWS AppSync <br> **Practice:** <br>&emsp; Lab 86: Serverless - Introduction to AWS AppSync                                               | 10/11/2025  | 10/11/2025      | <https://000086.awsstudygroup.com/vi/>    |
+| 6   | **Task**: Lab 87: AWS Toolkit for VS Code: Amazon Q & CodeWhisperer <br> **Practice:** <br>&emsp; Lab 87: AWS Toolkit for VS Code: Amazon Q & CodeWhisperer                              | 11/11/2025  | 11/11/2025      | <https://000087.awsstudygroup.com/vi/>    |
 
+### Achievements for Week 10:
 
-### Week 10 Achievements:
+- Understand and successfully implement CI/CD pipeline for Serverless applications.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Master CloudWatch & X-Ray monitoring and debugging tools for real-world operations.
 
-* Successfully created and configured an AWS Free Tier account.
+- Learn how to write and publish a complete AWS Workshop.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Expand knowledge with AppSync and GraphQL in modern Serverless architecture.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Gain proficiency in AWS development environment using AWS Toolkit, Amazon Q & CodeWhisperer.
