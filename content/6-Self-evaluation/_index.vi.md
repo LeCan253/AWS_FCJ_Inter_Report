@@ -6,35 +6,30 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong thời gian thực tập tại **Amazon Web Services** từ **8/09/2025** đến **8/12/2025**, tôi đã có cơ hội áp dụng những kiến thức được học vào công việc thực tế.  
+Tôi tham gia **công việc và dự án**, qua đó rèn luyện các kỹ năng như **công nghệ, phân tích, báo cáo, giao tiếp**.
 
-Trong suốt thời gian thực tập tại **[Tên công ty/tổ chức]** từ **[ngày bắt đầu]** đến **[ngày kết thúc]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.  
+Tôi luôn giữ tác phong nghiêm túc, hoàn thành nhiệm vụ đúng hạn và chủ động trao đổi với đồng nghiệp để làm việc hiệu quả hơn.
 
-Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
+Dưới đây là phần tự đánh giá theo từng tiêu chí:
 
-Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
-
-
-| STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅   | ☐   | ☐          |
-| 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅   | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅   | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅   | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ☐   | ☐   | ✅          |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅   | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅   | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅   | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅   | ☐   | ☐          |
-| 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅   | ☐          |
-| 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅   | ☐   | ☐          |
-| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅   | ☐   | ☐          |
+| STT | Tiêu chí                            | Mô tả                                                                                                | Tốt | Khá | Trung bình |
+| --- | ----------------------------------- | ----------------------------------------------------------------------------------------------------- | --- | --- | ---------- |
+| 1   | **Kiến thức & kỹ năng chuyên môn** | Khả năng áp dụng kiến thức, làm chủ công cụ, chất lượng công việc                                     | ✅   | ☐   | ☐          |
+| 2   | **Khả năng học hỏi**                | Tốc độ tiếp thu kiến thức mới, khả năng thích nghi                                                    | ☐   | ✅   | ☐          |
+| 3   | **Tính chủ động**                   | Tự tìm hướng giải quyết, không phụ thuộc hoàn toàn vào chỉ dẫn                                        | ✅   | ☐   | ☐          |
+| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng kế hoạch và đảm bảo chất lượng                                             | ✅   | ☐   | ☐          |
+| 5   | **Tính kỷ luật**                     | Tuân thủ nội quy, thời gian và quy trình làm việc                                                     | ☐   | ✅   | ☐         |
+| 6   | **Tinh thần cầu tiến**              | Sẵn sàng lắng nghe góp ý, mong muốn cải thiện bản thân                                               | ☐   | ✅   | ☐          |
+| 7   | **Giao tiếp**                       | Khả năng truyền đạt thông tin và trình bày báo cáo rõ ràng                                            | ☐   | ✅   | ☐          |
+| 8   | **Làm việc nhóm**                   | Hợp tác hiệu quả với các thành viên, tham gia đóng góp tích cực                                       | ✅   | ☐   | ☐          |
+| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng mọi người, cư xử phù hợp trong môi trường làm việc                                           | ✅   | ☐   | ☐          |
+| 10  | **Giải quyết vấn đề**               | Nhận diện vấn đề và đưa ra hướng xử lý hợp lý                                                         | ☐   | ✅   | ☐          |
+| 11  | **Đóng góp cho dự án/đội nhóm**     | Mức độ hiệu quả, sáng kiến, và ghi nhận từ đồng nghiệp                                                 | ✅   | ☐   | ☐          |
+| 12  | **Tổng quan**                       | Đánh giá toàn diện về quá trình thực tập                                                              | ✅   | ☐   | ☐          |
 
 ### Cần cải thiện
 
-* Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
-* Cải thiện trong cách tư duy giải quyết vấn đề
-* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+* Tăng cường tính kỷ luật và tuân thủ quy định  
+* Rèn luyện khả năng phân tích và xử lý vấn đề  
+* Cải thiện giao tiếp trong công việc và ứng xử trong tình huống khó  
