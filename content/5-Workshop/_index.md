@@ -10,13 +10,11 @@ pre: " <b> 5. </b> "
 
 #### Overview
 
-**AWS PrivateLink** provides private connectivity to AWS services from VPCs and your on-premises networks, without exposing your traffic to the Public Internet.
+In this workshop, we build a DevSecOps pipeline on AWS to integrate security right into the CI/CD process instead of manually handling it at the end of the project. Each time a developer pushes code to the repository, the system will automatically trigger security and source code quality checks.
 
-In this lab, you will learn how to create, configure, and test VPC endpoints that enable your workloads to reach AWS services without traversing the Public Internet.
+#### Main objectives
 
-You will create two types of endpoints to access Amazon S3: a Gateway VPC endpoint, and an Interface VPC endpoint. These two types of VPC endpoints offer different benefits depending on if you are accessing Amazon S3 from the cloud or your on-premises location
-+ **Gateway** - Create a gateway endpoint to send traffic to Amazon S3 or DynamoDB using private IP addresses.You route traffic from your VPC to the gateway endpoint using route tables.
-+ **Interface** - Create an interface endpoint to send traffic to endpoint services that use a Network Load Balancer to distribute traffic. Traffic destined for the endpoint service is resolved using DNS.
+Automatically scan for security vulnerabilities after each commit/push of code. Perform container image and dependency scanning using Trivy, helping to detect vulnerabilities in libraries and base images. Run Bandit to check for security issues in Python/JavaScript code. Integrate SonarQube to evaluate code quality (code smells, duplication, coverage, maintainability...). Push important findings to AWS Security Hub to centrally manage security alerts. Send real-time notifications (via Email/SNS/Chat...) when detecting serious problems for the development team to handle promptly.
 
 #### Content
 
