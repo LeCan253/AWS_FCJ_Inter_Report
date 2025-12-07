@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Summary Report: “AWS Well-Architected Framework – Security Pillar Workshop”
+# Summary Report: “AWS CLOUD MASTER SERIES #3”
 
 ### Event Objectives
 
