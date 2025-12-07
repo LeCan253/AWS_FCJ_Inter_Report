@@ -5,7 +5,7 @@ weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
-# Báo cáo tổng kết: “AWS Well-Architected Framework – Security Pillar Workshop”
+# Báo cáo tổng kết: “AWS CLOUD MASTER SERIES #3”
 
 ### Mục tiêu sự kiện
 
