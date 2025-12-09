@@ -6,16 +6,23 @@ chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### Giới thiệu về VPC Endpoint
+###Mục tiêu pipeline:
+- Tự động hóa toàn bộ quy trình build – quét bảo mật – thông báo lỗi.
+- Phát hiện sớm bug, lỗ hổng bảo mật ngay khi dev commit code.
+- Tạo vòng lặp DevSecOps khép kín: Commit → Scan → Notify → Fix → Commit lại.
 
-+ VPC Endpoint là một thiết bị ảo trong VPC, cho phép tài nguyên nội bộ (EC2, Lambda, CodeBuild, CodePipeline…) truy cập các dịch vụ AWS mà không cần đi qua Internet công cộng. Điều này giúp giảm rủi ro, tăng tính bảo mật và đảm bảo độ sẵn sàng cao.
-+ Với Gateway Endpoint, các dịch vụ như Amazon S3 có thể được truy cập trực tiếp từ VPC mà không qua Internet.
-+ Với Interface Endpoint (AWS PrivateLink), các dịch vụ như Security Hub, ECR API, SNS, hoặc CodeGuru Reviewer có thể được truy cập riêng tư giữa các dịch vụ trong AWS, giúp pipeline DevSecOps hoạt động an toàn và ổn định ngay cả khi không mở Internet outbound.
+###Tóm tắt luồng:
+1. Dev commit code vào GitLab (nhánh main).
+2. AWS CodePipeline nhận sự kiện và kích hoạt pipeline.
+3. CodeBuild chạy Sonar Scanner để phân tích mã nguồn.
+4. SonarQube trên EC2 nhận kết quả quét từ Scanner.
+5. SonarQube gửi Webhook → API Gateway → Lambda.
+6. Lambda xử lý dữ liệu → gửi thông báo qua SNS → email dev.
+7. Dev nhận báo cáo lỗi → Fix → Commit lại → quay lại vòng lặp.
 
-#### Tổng quan về workshop
-
-+ Pipeline sử dụng một VPC duy nhất, trong đó các dịch vụ CI/CD và bảo mật được kết nối nội bộ thông qua VPC Endpoint:
-+ **Security VPC** là nơi đặt các tài nguyên chính của pipeline như CodeBuild, Lambda phục vụ việc phân tích, gateway endpoint để truy cập S3, và interface endpoint để kết nối với Security Hub, ECR, CodeGuru Reviewer, SNS,… VPC này mô phỏng môi trường cloud thực tế, nơi mọi hoạt động scan – build – phân tích đều được xử lý trong mạng riêng tư.
-+ **Trong pipeline, CodeBuild** sẽ lần lượt quét lỗ hổng trong image/container bằng Trivy , uét bảo mật Python/JS bằng Bandit , phân tích chất lượng mã nguồn với SonarQube , ẩy kết quả cảnh báo lên AWS Security Hub ,gửi cảnh báo real-time qua SNS
+###Hệ thống đảm bảo:
+- Tự động hóa kiểm thử bảo mật.
+- Cải thiện chất lượng mã nguồn.
+- Giảm rủi ro bảo mật và lỗi logic.
 
 ![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
