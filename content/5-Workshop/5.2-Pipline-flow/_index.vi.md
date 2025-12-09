@@ -22,7 +22,7 @@ pre : " <b> 5.2. </b> "
   - Gửi kết quả sang SonarQube Server.
 - Nếu build fail → pipeline dừng.
 
-![codebuild](static/images/5-Workshop/CodeBuild.jpg)
+![codebuild](/images/5-Workshop/5.2-Pipline-flow/CodeBuild.png)
 
 ### 3. Post-Build Actions
 - CodeBuild đẩy metadata build (log, status) về CodePipeline.
