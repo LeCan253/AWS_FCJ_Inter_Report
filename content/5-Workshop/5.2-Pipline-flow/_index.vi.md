@@ -12,7 +12,7 @@ pre : " <b> 5.2. </b> "
 - Khi có commit mới, pipeline tự động kích hoạt.
 - Output: source artifact để truyền sang bước build.
   
-![pipline](/images/5-Workshop/5.2-Pipline-flow/Codepipline.png)
+![codepipline](/images/5-Workshop/5.2-Pipline-flow/Codepipline.png)
 
 ### 2. Build Stage (CodeBuild)
 - Chạy môi trường build theo buildspec.yml.
@@ -21,6 +21,8 @@ pre : " <b> 5.2. </b> "
   - Quét toàn bộ source code.
   - Gửi kết quả sang SonarQube Server.
 - Nếu build fail → pipeline dừng.
+
+![codebuild](/images/5-Workshop/5.2-Pipline-flow/CodeBuild.png)
 
 ### 3. Post-Build Actions
 - CodeBuild đẩy metadata build (log, status) về CodePipeline.
