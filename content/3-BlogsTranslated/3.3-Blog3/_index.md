@@ -5,122 +5,262 @@ weight: 1
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+# New Generative AI Customer Study: Opportunities for AWS Partners in the Evolving Generative AI Landscape
 
-# Getting Started with Healthcare Data Lakes: Using Microservices
-
-Data lakes can help hospitals and healthcare facilities turn data into business insights, maintain business continuity, and protect patient privacy. A **data lake** is a centralized, managed, and secure repository to store all your data, both in its raw and processed forms for analysis. Data lakes allow you to break down data silos and combine different types of analytics to gain insights and make better business decisions.
-
-This blog post is part of a larger series on getting started with setting up a healthcare data lake. In my final post of the series, *“Getting Started with Healthcare Data Lakes: Diving into Amazon Cognito”*, I focused on the specifics of using Amazon Cognito and Attribute Based Access Control (ABAC) to authenticate and authorize users in the healthcare data lake solution. In this blog, I detail how the solution evolved at a foundational level, including the design decisions I made and the additional features used. You can access the code samples for the solution in this Git repo for reference.
+**Author:** Jacob Newton-Gladstein
+**Date:** 03/04/2025
+**Role:** Lead, Generative AI CoE for Global Partners
+**Category:** Announcements • AWS Partner Network • Platform • Generative AI
 
 ---
 
-## Architecture Guidance
+## 1. Introduction
 
-The main change since the last presentation of the overall architecture is the decomposition of a single service into a set of smaller services to improve maintainability and flexibility. Integrating a large volume of diverse healthcare data often requires specialized connectors for each format; by keeping them encapsulated separately as microservices, we can add, remove, and modify each connector without affecting the others. The microservices are loosely coupled via publish/subscribe messaging centered in what I call the “pub/sub hub.”
+AWS announces the **second edition** of its Generative AI Customer Study dedicated to **AWS partners**, produced by the **Generative AI CoE for Global Partners**.
 
-This solution represents what I would consider another reasonable sprint iteration from my last post. The scope is still limited to the ingestion and basic parsing of **HL7v2 messages** formatted in **Encoding Rules 7 (ER7)** through a REST interface.
+Research Objectives:
 
-**The solution architecture is now as follows:**
+- Provide **exclusive** insights into:
 
-> *Figure 1. Overall architecture; colored boxes represent distinct services.*
+- Customer Generative AI adoption patterns
 
----
+- Buyer journey
 
-While the term *microservices* has some inherent ambiguity, certain traits are common:  
-- Small, autonomous, loosely coupled  
-- Reusable, communicating through well-defined interfaces  
-- Specialized to do one thing well  
-- Often implemented in an **event-driven architecture**
+- Strategic and architectural priorities
+- Help AWS partners better understand:
 
-When determining where to draw boundaries between microservices, consider:  
-- **Intrinsic**: technology used, performance, reliability, scalability  
-- **Extrinsic**: dependent functionality, rate of change, reusability  
-- **Human**: team ownership, managing *cognitive load*
+- Where customers are **in their AI journey
+- What they **prioritize**
+- Where the **opportunities** are for partners in the next 3 years
 
----
+A key finding:
 
-## Technology Choices and Communication Scope
-
-| Communication scope                       | Technologies / patterns to consider                                                        |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Within a single microservice              | Amazon Simple Queue Service (Amazon SQS), AWS Step Functions                               |
-| Between microservices in a single service | AWS CloudFormation cross-stack references, Amazon Simple Notification Service (Amazon SNS) |
-| Between services                          | Amazon EventBridge, AWS Cloud Map, Amazon API Gateway                                      |
+> **More than 90% of customers surveyed plan to work with an AWS partner** in at least one phase of Generative AI implementation in the next 3 years.
 
 ---
 
-## The Pub/Sub Hub
+## 2. Scope & Methodology
 
-Using a **hub-and-spoke** architecture (or message broker) works well with a small number of tightly related microservices.  
-- Each microservice depends only on the *hub*  
-- Inter-microservice connections are limited to the contents of the published message  
-- Reduces the number of synchronous calls since pub/sub is a one-way asynchronous *push*
+- ~**1,000 responses**
+- **10 countries** in Europe & North America
+- **24 key industries**, including:
 
-Drawback: **coordination and monitoring** are needed to avoid microservices processing the wrong message.
+- Travel & Hospitality
 
----
+- Transportation
 
-## Core Microservice
+- Telecommunications
 
-Provides foundational data and communication layer, including:  
-- **Amazon S3** bucket for data  
-- **Amazon DynamoDB** for data catalog  
-- **AWS Lambda** to write messages into the data lake and catalog  
-- **Amazon SNS** topic as the *hub*  
-- **Amazon S3** bucket for artifacts such as Lambda code
+- Banking
 
-> Only allow indirect write access to the data lake through a Lambda function → ensures consistency.
+- And many more
+
+The survey consists of **more than 60 questions**, revolving around **7 key areas**.
 
 ---
 
-## Front Door Microservice
+## 3. Seven key areas of the study
 
-- Provides an API Gateway for external REST interaction  
-- Authentication & authorization based on **OIDC** via **Amazon Cognito**  
-- Self-managed *deduplication* mechanism using DynamoDB instead of SNS FIFO because:  
-  1. SNS deduplication TTL is only 5 minutes  
-  2. SNS FIFO requires SQS FIFO  
-  3. Ability to proactively notify the sender that the message is a duplicate  
+1. **Generative AI adoption level**
+- Identify decision makers by geography and industry.
+- Exclude those who are not involved in the adoption process.
+- Collect information on **AI adoption journey** by stage.
+
+2. **Buying Journey**
+- Motivations to buy Generative AI.
+- Decision-making process and buyer persona.
+- Budget & pricing model for Generative AI.
+
+3. **Key Purchasing Criteria**
+- Selection criteria:
+- Model providers
+- Deployment platform
+- Deployment partners
+- Customer perception of **cloud service providers**.
+
+4. **Architectural decisions**
+- Platform and model provider in use.
+- Multi-vendor, multi-model, open-source vs. managed strategy.
+- How customers choose models & how to deploy.
+
+5. **Difficulties and opportunities**
+- Actual implementation progress.
+- Obstacles in:
+- Application
+- System integration
+- Scaling
+- Team skilling
+- Key risks and bottlenecks in the Generative AI journey.
+
+6. **Partners and outsourcing activities**
+- The role of partners in outsourcing scenarios.
+- Customer satisfaction with partners.
+- Customer expectations of the role of partners:
+- Strategic consulting
+- Technical implementation
+- Operation & post-implementation optimization
+
+7. **In-depth analysis by use case**
+- Use cases at the department level.
+- Use cases at the enterprise level.
+- Compare the maturity of different use case groups.
 
 ---
 
-## Staging ER7 Microservice
+## 4. Key Trends & Changes in the Industry
 
-- Lambda “trigger” subscribed to the pub/sub hub, filtering messages by attribute  
-- Step Functions Express Workflow to convert ER7 → JSON  
-- Two Lambdas:  
-  1. Fix ER7 formatting (newline, carriage return)  
-  2. Parsing logic  
-- Result or error is pushed back into the pub/sub hub  
+### 4.1 Generative AI applications according to industry-specific models
+
+- Customers no longer apply Generative AI according to “generic” use cases.
+
+- Instead:
+- They prioritize **industry-specific use cases**.
+
+- Leading companies build **industry-specific Generative AI roadmaps**, rather than simply copying a generic model.
+
+### 4.2 Cost, ROI and Security
+
+Compared to the **2023** study:
+
+- **Cost**:
+- Less important in the **pilot / PoC** stage.
+
+- Still a **key factor** when starting to **scale workloads**.
+
+- **ROI (Return on Investment)**:
+- Becomes **more important** as the technology matures.
+
+- Customers want **measurable business value**, not just “testing for information”.
+
+- **Security**:
+- Strong security capabilities remain the **number 1 criterion** when choosing a platform.
+
+This is the top factor **for 2 consecutive years**.
 
 ---
 
-## New Features in the Solution
+## 5. Example Survey Questions & Insights for Partners
 
-### 1. AWS CloudFormation Cross-Stack References
-Example *outputs* in the core microservice:
-```yaml
-Outputs:
-  Bucket:
-    Value: !Ref Bucket
-    Export:
-      Name: !Sub ${AWS::StackName}-Bucket
-  ArtifactBucket:
-    Value: !Ref ArtifactBucket
-    Export:
-      Name: !Sub ${AWS::StackName}-ArtifactBucket
-  Topic:
-    Value: !Ref Topic
-    Export:
-      Name: !Sub ${AWS::StackName}-Topic
-  Catalog:
-    Value: !Ref Catalog
-    Export:
-      Name: !Sub ${AWS::StackName}-Catalog
-  CatalogArn:
-    Value: !GetAtt Catalog.Arn
-    Export:
-      Name: !Sub ${AWS::StackName}-CatalogArn
+### 5.1 Generative AI Maturity Level by Function
+
+> **Question:**
+> “How far has your company progressed in implementing Generative AI processes in each of the following functions?”
+
+**Partner Insights:**
+
+- Identify which functions are **mature** (e.g., customer care, marketing, IT) and which are **still in the very early stages**.
+
+- From there:
+- Focus on advanced services for mature areas.
+
+- Propose **foundational solutions** for nascent areas.
+
+---
+
+### 5.2 Key Purchasing Criteria
+
+> **Question:**
+> How do customers rate the importance of the following criteria, e.g.:
+> - Industry expertise
+> - Experience with Generative AI
+> - Data management & data preparation capabilities
+> - Post-implementation support
+
+**Partner comments:**
+
+-Prioritize criteria to help partners:
+
+- Adjust **value proposition**.
+
+- Optimize **pricing model**, service package, SLA.
+
+- Focus investment on **technical capabilities** or **industry expertise** that customers prioritize.
+
+---
+
+### 5.3 Partner Influence on Generative AI Architecture
+
+> **Question:**
+> “How much influence do your external partners have on Generative AI architecture and model/implementation decisions?”
+
+**Assessment for partners:**
+
+- If **high impact**:
+- Expansion opportunities:
+- Strategic consulting services
+- Architectural design
+- Cost & performance optimization
+- If **low impact**:
+- Signals needed:
+- Upgrade **technical expertise**
+- Build **thought leadership**
+- Proactively lead customers in the AI ​​roadmap
+
+---
+
+## 6. Strategic value for AWS partners
+
+The report brings to AWS partners:
+
+- Detailed **customer persona** by industry.
+- **Partner & platform selection criteria** prioritized by customers.
+- **Deployment priority** by industry, function and use case type.
+
+- Information on:
+
+- **Common Pain Points** when Deploying Generative AI
+- Specific **Action Steps** to:
+
+- Reduce Deployment Risk
+
+- Increase PoC → Production Success Rate
+
+- Scale Generative AI Workload
+
+Partners can use this data to:
+
+- Tailor **Products & Services** to each industry.
+
+- Optimize **Go-to-Market Message** to match actual needs.
+
+- Design **Industry Solutions**.
+
+---
+
+## 7. Access the report & accompanying resources
+
+Partners can access:
+
+- **Full research report**
+- Additional resources at:
+
+- **Generative AI Center of Excellence in AWS Partner Central**
+
+- (Partner Central login required)
+
+Included documents:
+
+- **Industry datasets**
+- **Detailed use case documentation**
+- **Generative AI implementation best practices**, including:
+
+- Security
+- Architecture
+- Operations & scaling
+
+---
+
+## 8. Conclusion
+
+The research helps AWS partners:
+
+- Understand **where customers are** in their Generative AI journey.
+- Know **what customers prioritize** when choosing platforms & partners.
+- Identify **new opportunities** to:
+
+- Build specialized solutions
+- Expand consulting & implementation services
+- Take Generative AI from PoC to production at scale
+
+> **Key messages:**
+> AWS Partners play a central role in bridging the AI ​​maturity gap between organizations and are key to realizing business value from Generative AI.
