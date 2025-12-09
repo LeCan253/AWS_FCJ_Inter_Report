@@ -13,6 +13,8 @@ pre : " <b> 5.2. </b> "
 - When there is a new commit, the pipeline is automatically activated.
 
 - Output: source artifact to transfer to the build step.
+  
+![codepipline](/images/5-Workshop/5.2-Pipline-flow/Codepipline.png)
 
 ### 2. Build Stage (CodeBuild)
 - Run the build environment according to buildspec.yml.
@@ -22,6 +24,8 @@ pre : " <b> 5.2. </b> "
 - Scan all source code.
 - Send results to SonarQube Server.
 - If the build fails → the pipeline stops.
+
+![codebuild](/images/5-Workshop/5.2-Pipline-flow/CodeBuild.png)
 
 ### 3. Post-Build Actions
 - CodeBuild pushes build metadata (log, status) to CodePipeline.
