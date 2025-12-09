@@ -14,9 +14,13 @@ During the build phase, Sonar Scanner performs:
 - Security vulnerability detection (Security Hotspots, Vulnerabilities).
 - Code smell, complexity, duplication calculation.
 
+![Sonar](/images/5-Workshop/5.3-sonarqube-analysis/SonarQubeNotifier.png)
+
 Results are sent to:
 - **SonarQube Server (EC2)**
 - SonarQube processes and saves the results to its database.
+
+![EC2](/images/5-Workshop/5.3-sonarqube-analysis/EC2.png)
 
 ### Webhook Trigger
 When the analysis is complete:
