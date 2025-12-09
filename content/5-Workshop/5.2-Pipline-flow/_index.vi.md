@@ -12,7 +12,7 @@ pre : " <b> 5.2. </b> "
 - Khi có commit mới, pipeline tự động kích hoạt.
 - Output: source artifact để truyền sang bước build.
   
-![codepipline](/images/5-Workshop/5.2-Pipline-flow/Codepipeline.png)
+![codepipline](/static/images/5-Workshop/5.2-Pipline-flow/Codepipeline.png)
 
 ### 2. Build Stage (CodeBuild)
 - Chạy môi trường build theo buildspec.yml.
