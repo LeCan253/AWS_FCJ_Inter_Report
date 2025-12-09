@@ -16,12 +16,18 @@ Lambda does:
 2. Format message (project, error type, severity).
 3. Send content to SNS topic.
 
+![API](/images/5-Workshop/5.4-lambda-and-notification/api.png)
+
+![API2](/images/5-Workshop/5.4-lambda-and-notification/api-gateway.png)
+
 ### SNS Notifications
 SNS sends email to dev team:
 - Report security errors.
 - Report code errors.
 - Report Quality Gate failures.
 - Link directly to SonarQube dashboard.
+
+![SNS](/images/5-Workshop/5.4-lambda-and-notification/SNS.png)
 
 Benefits:
 - Dev knows errors immediately.
