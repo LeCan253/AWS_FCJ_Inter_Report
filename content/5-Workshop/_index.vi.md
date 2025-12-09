@@ -23,4 +23,3 @@ Tự động quét lỗ hổng bảo mật sau mỗi lần commit/push code.Th�
 3. [Truy cập đến S3 từ VPC](5.3-S3-vpc/)
 4. [Truy cập đến S3 từ TTDL On-premises](5.4-S3-onprem/)
 5. [VPC Endpoint Policies (làm thêm)](5.5-Policy/)
-6. [Dọn dẹp tài nguyên](5.6-Cleanup/)
