@@ -15,9 +15,13 @@ Trong giai đoạn build, Sonar Scanner thực hiện:
 - Phát hiện lỗ hổng bảo mật (Security Hotspots, Vulnerabilities).
 - Tính toán code smell, độ phức tạp, duplication.
 
+![Sonar](/images/5-Workshop/5.3-sonarqube-analysis/SonarQubeNotifier.png)
+
 Kết quả được gửi tới:
 - **SonarQube Server (EC2)**  
 - SonarQube xử lý, lưu kết quả vào database của nó.
+
+![EC2](/images/5-Workshop/5.3-sonarqube-analysis/EC2.png)
 
 ### Webhook Trigger
 Khi quá trình phân tích hoàn tất:
