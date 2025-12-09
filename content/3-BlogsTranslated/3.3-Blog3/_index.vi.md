@@ -6,122 +6,230 @@ chapter: false
 pre: " <b> 3.3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Nghiên cứu khách hàng mới về Generative AI: Cơ hội cho đối tác AWS trong bối cảnh Generative AI đang phát triển
 
-# Bắt đầu với healthcare data lakes: Sử dụng microservices
-
-Các data lake có thể giúp các bệnh viện và cơ sở y tế chuyển dữ liệu thành những thông tin chi tiết về doanh nghiệp và duy trì hoạt động kinh doanh liên tục, đồng thời bảo vệ quyền riêng tư của bệnh nhân. **Data lake** là một kho lưu trữ tập trung, được quản lý và bảo mật để lưu trữ tất cả dữ liệu của bạn, cả ở dạng ban đầu và đã xử lý để phân tích. data lake cho phép bạn chia nhỏ các kho chứa dữ liệu và kết hợp các loại phân tích khác nhau để có được thông tin chi tiết và đưa ra các quyết định kinh doanh tốt hơn.
-
-Bài đăng trên blog này là một phần của loạt bài lớn hơn về việc bắt đầu cài đặt data lake dành cho lĩnh vực y tế. Trong bài đăng blog cuối cùng của tôi trong loạt bài, *“Bắt đầu với data lake dành cho lĩnh vực y tế: Đào sâu vào Amazon Cognito”*, tôi tập trung vào các chi tiết cụ thể của việc sử dụng Amazon Cognito và Attribute Based Access Control (ABAC) để xác thực và ủy quyền người dùng trong giải pháp data lake y tế. Trong blog này, tôi trình bày chi tiết cách giải pháp đã phát triển ở cấp độ cơ bản, bao gồm các quyết định thiết kế mà tôi đã đưa ra và các tính năng bổ sung được sử dụng. Bạn có thể truy cập các code samples cho giải pháp tại Git repo này để tham khảo.
+**Tác giả:** Jacob Newton-Gladstein  
+**Ngày:** 04/03/2025  
+**Vai trò:** Trưởng nhóm Trung tâm Generative AI Xuất sắc dành cho Đối tác Toàn cầu (Generative AI CoE for Global Partners)  
+**Danh mục:** Thông báo • AWS Partner Network • Nền tảng • Generative AI  
 
 ---
 
-## Hướng dẫn kiến trúc
+## 1. Giới thiệu
 
-Thay đổi chính kể từ lần trình bày cuối cùng của kiến trúc tổng thể là việc tách dịch vụ đơn lẻ thành một tập hợp các dịch vụ nhỏ để cải thiện khả năng bảo trì và tính linh hoạt. Việc tích hợp một lượng lớn dữ liệu y tế khác nhau thường yêu cầu các trình kết nối chuyên biệt cho từng định dạng; bằng cách giữ chúng được đóng gói riêng biệt với microservices, chúng ta có thể thêm, xóa và sửa đổi từng trình kết nối mà không ảnh hưởng đến những kết nối khác. Các microservices được kết nối rời thông qua tin nhắn publish/subscribe tập trung trong cái mà tôi gọi là “pub/sub hub”.
+AWS công bố **phiên bản thứ hai** của Báo cáo Nghiên cứu Khách hàng về Generative AI dành riêng cho **đối tác AWS**, do **Trung tâm Generative AI Xuất sắc dành cho đối tác toàn cầu** thực hiện.
 
-Giải pháp này đại diện cho những gì tôi sẽ coi là một lần lặp nước rút hợp lý khác từ last post của tôi. Phạm vi vẫn được giới hạn trong việc nhập và phân tích cú pháp đơn giản của các **HL7v2 messages** được định dạng theo **Quy tắc mã hóa 7 (ER7)** thông qua giao diện REST.
+Mục tiêu của nghiên cứu:
 
-**Kiến trúc giải pháp bây giờ như sau:**
+- Cung cấp **insights độc quyền** về:
+  - Mô hình ứng dụng Generative AI của khách hàng
+  - Hành trình mua hàng (buyer journey)
+  - Các ưu tiên chiến lược và kiến trúc
+- Giúp đối tác AWS hiểu rõ hơn:
+  - Khách hàng đang **ở đâu** trong hành trình AI
+  - Họ **ưu tiên điều gì**
+  - Đâu là **cơ hội** cho đối tác trong 3 năm tới
 
-> *Hình 1. Kiến trúc tổng thể; những ô màu thể hiện những dịch vụ riêng biệt.*
-
----
-
-Mặc dù thuật ngữ *microservices* có một số sự mơ hồ cố hữu, một số đặc điểm là chung:  
-- Chúng nhỏ, tự chủ, kết hợp rời rạc  
-- Có thể tái sử dụng, giao tiếp thông qua giao diện được xác định rõ  
-- Chuyên biệt để giải quyết một việc  
-- Thường được triển khai trong **event-driven architecture**
-
-Khi xác định vị trí tạo ranh giới giữa các microservices, cần cân nhắc:  
-- **Nội tại**: công nghệ được sử dụng, hiệu suất, độ tin cậy, khả năng mở rộng  
-- **Bên ngoài**: chức năng phụ thuộc, tần suất thay đổi, khả năng tái sử dụng  
-- **Con người**: quyền sở hữu nhóm, quản lý *cognitive load*
+Một kết luận nổi bật:  
+> **Hơn 90% khách hàng được khảo sát dự định hợp tác với đối tác AWS** trong ít nhất một giai đoạn triển khai Generative AI trong vòng 3 năm tới.
 
 ---
 
-## Lựa chọn công nghệ và phạm vi giao tiếp
+## 2. Phạm vi & Phương pháp nghiên cứu
 
-| Phạm vi giao tiếp                        | Các công nghệ / mô hình cần xem xét                                                        |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Trong một microservice                   | Amazon Simple Queue Service (Amazon SQS), AWS Step Functions                               |
-| Giữa các microservices trong một dịch vụ | AWS CloudFormation cross-stack references, Amazon Simple Notification Service (Amazon SNS) |
-| Giữa các dịch vụ                         | Amazon EventBridge, AWS Cloud Map, Amazon API Gateway                                      |
+- ~**1.000 phản hồi**  
+- **10 quốc gia** tại châu Âu & Bắc Mỹ  
+- **24 ngành công nghiệp trọng điểm**, bao gồm:
+  - Du lịch & Khách sạn  
+  - Vận tải  
+  - Viễn thông  
+  - Ngân hàng  
+  - Và nhiều ngành khác
 
----
-
-## The pub/sub hub
-
-Việc sử dụng kiến trúc **hub-and-spoke** (hay message broker) hoạt động tốt với một số lượng nhỏ các microservices liên quan chặt chẽ.  
-- Mỗi microservice chỉ phụ thuộc vào *hub*  
-- Kết nối giữa các microservice chỉ giới hạn ở nội dung của message được xuất  
-- Giảm số lượng synchronous calls vì pub/sub là *push* không đồng bộ một chiều
-
-Nhược điểm: cần **phối hợp và giám sát** để tránh microservice xử lý nhầm message.
+Bộ khảo sát gồm **hơn 60 câu hỏi**, xoay quanh **7 lĩnh vực trọng tâm**.
 
 ---
 
-## Core microservice
+## 3. Bảy lĩnh vực trọng tâm của nghiên cứu
 
-Cung cấp dữ liệu nền tảng và lớp truyền thông, gồm:  
-- **Amazon S3** bucket cho dữ liệu  
-- **Amazon DynamoDB** cho danh mục dữ liệu  
-- **AWS Lambda** để ghi message vào data lake và danh mục  
-- **Amazon SNS** topic làm *hub*  
-- **Amazon S3** bucket cho artifacts như mã Lambda
+1. **Mức độ ứng dụng Generative AI**
+   - Xác định các nhà ra quyết định theo khu vực địa lý và ngành.
+   - Loại trừ những người không tham gia vào quá trình ứng dụng.
+   - Thu thập thông tin về **hành trình ứng dụng AI** theo giai đoạn.
 
-> Chỉ cho phép truy cập ghi gián tiếp vào data lake qua hàm Lambda → đảm bảo nhất quán.
+2. **Hành trình mua hàng (Buying Journey)**
+   - Động cơ mua Generative AI.
+   - Quy trình ra quyết định và chân dung người mua (buyer persona).
+   - Ngân sách & mô hình định giá cho Generative AI.
+
+3. **Các tiêu chí mua hàng chính**
+   - Tiêu chí lựa chọn:
+     - Nhà cung cấp mô hình (model providers)
+     - Nền tảng triển khai (platform)
+     - Đối tác triển khai (partners)
+   - Nhận thức của khách hàng về **nhà cung cấp dịch vụ đám mây**.
+
+4. **Quyết định kiến trúc**
+   - Nền tảng và nhà cung cấp mô hình đang được sử dụng.
+   - Chiến lược multi-vendor, multi-model, open-source vs. managed.
+   - Cách khách hàng lựa chọn mô hình & cách triển khai.
+
+5. **Khó khăn và cơ hội**
+   - Tiến độ triển khai thực tế.
+   - Các trở ngại trong:
+     - Ứng dụng
+     - Tích hợp hệ thống
+     - Mở rộng quy mô
+     - Nâng cao kỹ năng đội ngũ
+   - Rủi ro và điểm nghẽn chính trong hành trình Generative AI.
+
+6. **Đối tác và hoạt động gia công (outsourcing)**
+   - Vai trò của đối tác trong các kịch bản outsourcing.
+   - Mức độ hài lòng của khách hàng với đối tác.
+   - Kỳ vọng của khách hàng về vai trò của partner:
+     - Tư vấn chiến lược
+     - Triển khai kỹ thuật
+     - Vận hành & tối ưu sau triển khai
+
+7. **Phân tích chuyên sâu theo use case**
+   - Use case ở cấp **phòng ban** (department-level).
+   - Use case ở cấp **doanh nghiệp** (enterprise-level).
+   - So sánh mức độ trưởng thành của các nhóm use case khác nhau.
 
 ---
 
-## Front door microservice
+## 4. Xu hướng & Thay đổi chính trong ngành
 
-- Cung cấp API Gateway để tương tác REST bên ngoài  
-- Xác thực & ủy quyền dựa trên **OIDC** thông qua **Amazon Cognito**  
-- Cơ chế *deduplication* tự quản lý bằng DynamoDB thay vì SNS FIFO vì:
-  1. SNS deduplication TTL chỉ 5 phút
-  2. SNS FIFO yêu cầu SQS FIFO
-  3. Chủ động báo cho sender biết message là bản sao
+### 4.1 Ứng dụng Generative AI theo mô hình đặc thù ngành
+
+- Khách hàng không còn áp dụng Generative AI theo các use case “chung chung”.  
+- Thay vào đó:
+  - Họ ưu tiên **use case đặc thù ngành** (industry-specific).
+  - Doanh nghiệp dẫn đầu xây **lộ trình Generative AI riêng cho từng ngành**, thay vì chỉ sao chép mô hình dùng chung.
+
+### 4.2 Chi phí, ROI và bảo mật
+
+So với nghiên cứu năm **2023**:
+
+- **Chi phí**:
+  - Bớt quan trọng hơn ở giai đoạn **thử nghiệm ban đầu (pilot / PoC)**.
+  - Vẫn là **yếu tố then chốt** khi bắt đầu **mở rộng quy mô workload**.
+- **ROI (Return on Investment)**:
+  - Trở nên **quan trọng hơn** khi công nghệ dần trưởng thành.
+  - Khách hàng mong muốn **giá trị kinh doanh đo lường được**, không chỉ “thử nghiệm cho biết”.
+- **Bảo mật**:
+  - Khả năng bảo mật mạnh mẽ vẫn là **tiêu chí số 1** khi lựa chọn nền tảng.
+  - Đây là yếu tố đứng đầu **2 năm liên tiếp**.
 
 ---
 
-## Staging ER7 microservice
+## 5. Ví dụ câu hỏi khảo sát & Insight cho đối tác
 
-- Lambda “trigger” đăng ký với pub/sub hub, lọc message theo attribute  
-- Step Functions Express Workflow để chuyển ER7 → JSON  
-- Hai Lambda:
-  1. Sửa format ER7 (newline, carriage return)
-  2. Parsing logic  
-- Kết quả hoặc lỗi được đẩy lại vào pub/sub hub
+### 5.1 Mức độ trưởng thành Generative AI theo chức năng
+
+> **Câu hỏi:**  
+> “Công ty của bạn đã tiến bao xa trong hành trình triển khai các quy trình Generative AI ở từng chức năng sau?”
+
+**Nhận định cho đối tác:**
+
+- Xác định chức năng nào **đã trưởng thành** (ví dụ: chăm sóc khách hàng, marketing, IT) và chức năng nào **còn ở giai đoạn rất sớm**.
+- Từ đó:
+  - Tập trung dịch vụ cao cấp (advanced services) cho các lĩnh vực đã trưởng thành.
+  - Đề xuất **giải pháp nền tảng** (foundational solutions) cho những mảng còn non trẻ.
 
 ---
 
-## Tính năng mới trong giải pháp
+### 5.2 Các tiêu chí mua hàng chính
 
-### 1. AWS CloudFormation cross-stack references
-Ví dụ *outputs* trong core microservice:
-```yaml
-Outputs:
-  Bucket:
-    Value: !Ref Bucket
-    Export:
-      Name: !Sub ${AWS::StackName}-Bucket
-  ArtifactBucket:
-    Value: !Ref ArtifactBucket
-    Export:
-      Name: !Sub ${AWS::StackName}-ArtifactBucket
-  Topic:
-    Value: !Ref Topic
-    Export:
-      Name: !Sub ${AWS::StackName}-Topic
-  Catalog:
-    Value: !Ref Catalog
-    Export:
-      Name: !Sub ${AWS::StackName}-Catalog
-  CatalogArn:
-    Value: !GetAtt Catalog.Arn
-    Export:
-      Name: !Sub ${AWS::StackName}-CatalogArn
+> **Câu hỏi:**  
+> Khách hàng đánh giá mức độ quan trọng của các tiêu chí, ví dụ:
+> - Chuyên môn theo ngành  
+> - Kinh nghiệm với Generative AI  
+> - Năng lực quản lý dữ liệu & chuẩn bị dữ liệu  
+> - Hỗ trợ sau triển khai  
+
+**Nhận định cho đối tác:**
+
+- Thứ tự ưu tiên các tiêu chí giúp đối tác:
+  - Điều chỉnh **giá trị đề xuất (value proposition)**.  
+  - Tối ưu **mô hình định giá**, gói dịch vụ, SLA.  
+  - Tập trung đầu tư vào **năng lực kỹ thuật** hoặc **chuyên môn ngành** mà khách hàng ưu tiên.
+
+---
+
+### 5.3 Mức độ ảnh hưởng của đối tác vào kiến trúc Generative AI
+
+> **Câu hỏi:**  
+> “Các đối tác bên ngoài của bạn có mức độ ảnh hưởng như thế nào đối với kiến trúc Generative AI và các quyết định lựa chọn mô hình/triển khai?”
+
+**Nhận định cho đối tác:**
+
+- Nếu **mức ảnh hưởng cao**:
+  - Cơ hội mở rộng:
+    - Dịch vụ tư vấn chiến lược
+    - Thiết kế kiến trúc
+    - Tối ưu chi phí & hiệu năng
+- Nếu **mức ảnh hưởng thấp**:
+  - Tín hiệu cần:
+    - Nâng cấp **chuyên môn kỹ thuật**
+    - Xây dựng **thought leadership**
+    - Chủ động dẫn dắt khách hàng trong lộ trình AI
+
+---
+
+## 6. Giá trị chiến lược dành cho đối tác AWS
+
+Báo cáo mang lại cho đối tác AWS:
+
+- **Chân dung khách hàng (customer persona)** chi tiết theo từng ngành.  
+- **Tiêu chí lựa chọn đối tác & nền tảng** được khách hàng ưu tiên.  
+- **Ưu tiên triển khai** theo ngành, chức năng và loại use case.  
+- Thông tin về:
+  - **Pain points phổ biến** khi triển khai Generative AI  
+  - Các **bước hành động cụ thể** để:
+    - Giảm rủi ro triển khai  
+    - Tăng tỷ lệ thành công PoC → Production  
+    - Mở rộng quy mô workload Generative AI
+
+Đối tác có thể dùng dữ liệu này để:
+
+- Điều chỉnh **sản phẩm & dịch vụ** theo từng ngành.  
+- Tối ưu **go-to-market message** cho sát nhu cầu thực tế.  
+- Thiết kế **gói giải pháp chuyên ngành (industry solutions)**.
+
+---
+
+## 7. Truy cập báo cáo & tài nguyên kèm theo
+
+Đối tác có thể truy cập:
+
+- **Báo cáo nghiên cứu đầy đủ**  
+- Các tài nguyên bổ sung tại:
+  - **Trung tâm Xuất sắc về Generative AI trong AWS Partner Central**  
+  - (Yêu cầu đăng nhập Partner Central)
+
+Tài liệu đi kèm:
+
+- **Bộ dữ liệu theo ngành (industry datasets)**  
+- **Tài liệu chi tiết về use case**  
+- **Best practices triển khai Generative AI**, bao gồm:
+  - Bảo mật
+  - Kiến trúc
+  - Vận hành & mở rộng
+
+---
+
+## 8. Kết luận
+
+Nghiên cứu giúp đối tác AWS:
+
+- Hiểu rõ **khách hàng đang ở đâu** trong hành trình Generative AI.  
+- Biết được **khách hàng ưu tiên điều gì** khi chọn nền tảng & đối tác.  
+- Xác định **cơ hội mới** để:
+  - Xây dựng giải pháp chuyên ngành  
+  - Mở rộng dịch vụ tư vấn & triển khai  
+  - Đưa Generative AI từ PoC vào production ở quy mô lớn
+
+> **Thông điệp chính:**  
+> Đối tác AWS đóng vai trò trung tâm trong việc thu hẹp khoảng cách về mức độ trưởng thành AI giữa các tổ chức và là chìa khóa để hiện thực hóa giá trị kinh doanh từ Generative AI.
+
