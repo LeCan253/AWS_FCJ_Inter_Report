@@ -11,6 +11,8 @@ pre : " <b> 5.2. </b> "
 - CodePipeline được cấu hình lắng nghe commit từ GitLab (branch: main).
 - Khi có commit mới, pipeline tự động kích hoạt.
 - Output: source artifact để truyền sang bước build.
+  
+![](Codepipeline.png)
 
 ### 2. Build Stage (CodeBuild)
 - Chạy môi trường build theo buildspec.yml.
