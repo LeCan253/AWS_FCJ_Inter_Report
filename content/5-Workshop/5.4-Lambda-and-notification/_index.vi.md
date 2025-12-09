@@ -16,12 +16,19 @@ Lambda thực hiện:
 2. Format message (project, loại lỗi, mức độ nghiêm trọng).
 3. Gửi nội dung sang SNS topic.
 
+![API](/images/5-Workshop/5.4-lambda-and-notification/api.png)
+
+![API2](/images/5-Workshop/5.4-lambda-and-notification/api-gateway.png)
+
+
 ### SNS Notifications
 SNS gửi email đến nhóm dev:
 - Báo lỗi bảo mật.
 - Báo lỗi code.
 - Báo fail Quality Gate.
 - Link trực tiếp tới dashboard SonarQube.
+
+![SNS](/images/5-Workshop/5.4-lambda-and-notification/SNS.png)
 
 Lợi ích:
 - Dev biết lỗi ngay lập tức.
