@@ -28,4 +28,4 @@ Create a closed DevSecOps loop: Commit → Scan → Notify → Fix → Commit ag
 - Improve source code quality.
 - Reduce security risks and logic errors.
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+![overview](static/images/dia.png)
