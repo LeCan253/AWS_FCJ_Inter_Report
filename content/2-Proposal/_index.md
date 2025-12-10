@@ -55,7 +55,7 @@ Professional services provided:
 
 ### 2. SOLUTION ARCHITECTURE / ARCHITECTURAL DIAGRAM
 #### 2.1 TECHNICAL ARCHITECTURE DIAGRAM
-Architecture diagram: ![DevOps / Pipeline Engineer](/images/2-Proposal/diagram.png)
+Architecture diagram: ![DevOps / Pipeline Engineer](static/images/dia.png)
 
 AWS services used:
 
