@@ -26,4 +26,4 @@ pre : " <b> 5.1. </b> "
 - Cải thiện chất lượng mã nguồn.
 - Giảm rủi ro bảo mật và lỗi logic.
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+![overview](static/images/dia.png)
