@@ -55,7 +55,7 @@ Khách hàng đang phát triển ứng dụng và mong muốn tích hợp mô h�
 
 ### 2. KIẾN TRÚC GIẢI PHÁP / SƠ ĐỒ KIẾN TRÚC
 #### 2.1 SƠ ĐỒ KIẾN TRÚC KỸ THUẬT (TECHNICAL ARCHITECTURE DIAGRAM)
-*Sơ đồ kiến trúc*: ![DevOps / Pipeline Engineer]( static/images/dia.png )
+*Sơ đồ kiến trúc*: ![DevOps / Pipeline Engineer]( static/images/2-Proposal/diagram.jpg )
 
 *Danh sách công cụ AWS*:
 + AWS CodePipeline
